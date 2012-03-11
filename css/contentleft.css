@@ -1,9 +1,30 @@
 .left
 {
     border: 1px solid black;
-    width: 200px;
+    width: auto;
     display: inline-block;
     float: left;
     padding: 3px;
     margin-right: 3px
+}
+.panel_menu
+{
+    margin-bottom: 3px;
+}
+.panel_menu .input_menu
+{
+    width:134px
+}
+
+.panel_menu_header_left
+{
+    margin-bottom: 10px;
+    background-color: #DEE8E7;
+    padding: 5px;
+    border-radius: 5px
+}
+.panel_menu_header_left input
+{
+    margin-bottom: 3px;
+
 }

@@ -1,83 +1,4 @@
-$(function(){
-//    var i;
-//
-//    var li0 = new Array();
-//    li0[0]= $('.panel_header ul li a:eq(0)');
-//    li0[1]= $('.panel_header ul li a:eq(1)');
-//    li0[2]= $('.panel_header ul li a:eq(2)');
-//    li0[3]= $('.panel_header ul li a:eq(3)');
-//    li0[4]= $('.panel_header ul li a:eq(4)');
-//    li0[5]= $('.panel_header ul li a:eq(5)');
 
-//    var tbl = new Array();
-//    tbl[0] = $('#menu_list_hide li table:eq(0)');
-//    tbl[1] = $('#menu_list_hide li table:eq(1)');
-//    tbl[2] = $('#menu_list_hide li table:eq(2)');
-//    tbl[3] = $('#menu_list_hide li table:eq(3)');
-//    tbl[4] = $('#menu_list_hide li table:eq(4)');
-
-
-
-//    for(i=0;i<=li0.length;i++)
-//    {
-//        function hov(e){
-//            e.hover(
-//                function(){
-//                    $(this).css({
-//                        "color":"red"
-//                    });
-//
-//
-//                },
-//                function(){
-//                    $(this).css({
-//                        "color":"black"
-//                    });
-//
-//
-//                }
-//            );
-//        }
-//        hov(li0[i]);
-//
-//
-//    }
-
-//    var o;
-//
-//    var tbl = new Array();
-//    tbl[0] = $('#menu_list_hide li table:eq(0)');
-//    tbl[1] = $('#menu_list_hide li table:eq(1)');
-//    tbl[2] = $('#menu_list_hide li table:eq(2)');
-//    tbl[3] = $('#menu_list_hide li table:eq(3)');
-//    tbl[4] = $('#menu_list_hide li table:eq(4)');
-//
-//    var li1 = new Array();
-//    li1[0]= $('.panel_header ul li a:eq(0)');
-//    li1[1]= $('.panel_header ul li a:eq(1)');
-//    li1[2]= $('.panel_header ul li a:eq(2)');
-//    li1[3]= $('.panel_header ul li a:eq(3)');
-//    li1[4]= $('.panel_header ul li a:eq(4)');
-//    li1[5]= $('.panel_header ul li a:eq(5)');
-//
-//    for(o=0;o<=tbl.length;o++)
-//    {
-//        function hove(e){
-//            e.hover(
-//                function(){
-//                    tbl[o].show();
-//                },
-//                function(){
-//                    tbl[o].hide();
-//                }
-//            );
-//        }
-//        hove(li1[o]);
-//    }
-
-
-
-});
 
 $(function(){
 
@@ -169,5 +90,23 @@ $(function(){
     }
 
 
+    var ttd0=$('ul#menu_list_hide li table#tab0 tr td a:eq(0)');
+    var ttd1=$('ul#menu_list_hide li table#tab0 tr td a:eq(1)');
+    var ttd2=$('ul#menu_list_hide li table#tab0 tr td a:eq(2)');
+    var ttd3=$('ul#menu_list_hide li table#tab0 tr td a:eq(3)');
+    var ttd4=$('ul#menu_list_hide li table#tab0 tr td a:eq(3)');
+
+    ttd0.hover(
+        function(){
+            $(this).css({
+                "color":"red"
+            });
+        },
+        function(){
+            $(this).css({
+                "color":"black"
+            });
+        }
+    );
 
 });

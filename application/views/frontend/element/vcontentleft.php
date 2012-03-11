@@ -4,18 +4,10 @@
         });
 </script>
 <div class="left">
-    <table>
-        <thead>
-            <td>
-                <?php $this->load->view('frontend/logreg/vlogin'); ?>
-            </td>
-        </thead>
-        <tbody>
-            <td>
-                <div id="datepicker"></div>
-            </td>
-        </tbody>
-    </table>
+
+    <?php $this->load->view('frontend/logreg/vlogin'); ?>
+
+    <div id="datepicker" style="position: relative;background-color: #DEE8E7"></div>
 
     <div></div>
 </div>

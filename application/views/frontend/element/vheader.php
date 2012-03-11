@@ -26,7 +26,7 @@
                 <ul id="menu_list_hide">
 
                     <li>
-                        <table style="margin-left: 50px;">
+                        <table style="margin-left: 50px;" id="tab0">
                             <tr>
                                 <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=mot">Motto, Visi dan Misi</a></td>
                             </tr>
@@ -45,7 +45,7 @@
                         </table>
                     </li>
                     <li>
-                        <table style="margin-left: 135px;">
+                        <table style="margin-left: 135px;" id="tab1">
                             <tr>
                                 <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=dirG">Direktori Guru</a></td>
                             </tr>
@@ -62,7 +62,7 @@
                         </table>
                     </li>
                     <li>
-                        <table style="margin-left: 225px;">
+                        <table style="margin-left: 225px;" id="tab2">
                         <tr>
                             <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=dirS">Direktori Siswa</a></td>
                         </tr>
@@ -75,7 +75,7 @@
                         </table>
                     </li>
                     <li>
-                        <table style="margin-left: 310px; ">
+                        <table style="margin-left: 310px; " id="tab3">
                         <tr>
                             <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=dirA">Direktori Alumni</a></td>
                         </tr>
@@ -85,7 +85,7 @@
                         </table>
                     </li>
                     <li>
-                        <table style="margin-left: 400px;">
+                        <table style="margin-left: 400px;" id="tab4">
                         <tr>
                             <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=age">Agenda</a></td>
                         </tr>
