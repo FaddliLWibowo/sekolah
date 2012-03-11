@@ -1,8 +1,49 @@
-<?php
-/**
- * Created by JetBrains PhpStorm.
- * User: root
- * Date: 3/10/12
- * Time: 2:08 PM
- * To change this template use File | Settings | File Templates.
- */
+<div class="content">
+    <?php $this->load->view('frontend/element/vcontentleft'); ?>
+    <div class="center_all" style="width: 70%;min-height: 384px">
+
+        <fieldset>
+            <legend>Buku Tamu</legend>
+            <div class="control-group">
+                <label class="control-label" for="input01">Nama</label>
+                <div class="controls">
+                    <input type="text" class="input-xlarge" id="input01"/>
+
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="input01">Nama</label>
+                <div class="controls">
+                    <input type="text" class="input-xlarge" id="input01"/>
+
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="input01">Nama</label>
+                <div class="controls">
+                    <input type="text" class="input-xlarge" id="input01"/>
+
+                </div>
+            </div>
+
+
+
+<!--            <div class="control-group">-->
+<!--                <label class="control-label" for="textarea">Textarea</label>-->
+<!--                <div class="controls">-->
+<!--                    <textarea class="input-xlarge" id="textarea" rows="3"/>-->
+<!--                </div>-->
+<!--            </div>-->
+
+            <div>
+                <button type="submit" class="btn btn-primary">Save changes</button>
+                <button type="reset" class="btn">Cancel</button>
+            </div>
+
+        </fieldset>
+
+    </div>
+</div>
+
+
+

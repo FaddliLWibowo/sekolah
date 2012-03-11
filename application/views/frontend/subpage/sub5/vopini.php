@@ -1,8 +1,16 @@
-<?php
-/**
- * Created by JetBrains PhpStorm.
- * User: root
- * Date: 3/10/12
- * Time: 2:08 PM
- * To change this template use File | Settings | File Templates.
- */
+<div class="content">
+    <?php $this->load->view('frontend/element/vcontentleft'); ?>
+    <div class="center_all" style="width: 70%;min-height: 384px">
+        <h2>Opini</h2>
+
+
+        <ol style="list-style: circle">
+            <li>as</li>
+            <li>as</li>
+            <li>as</li>
+            <li>as</li>
+            <li>as</li>
+        </ol>
+
+    </div>
+</div>
