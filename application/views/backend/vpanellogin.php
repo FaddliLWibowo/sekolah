@@ -8,9 +8,10 @@
             <div class="panel">
                 <?php
                 $data = array(
+                    'id'=>'login',
                     'method'=>'post'
                 );
-                echo form_open('backend/cpageadmin/periksa_user',$data);
+                echo form_open('/index.php/cpanellogin/cekLogin',$data);
                 ?>
                     <table>
                         <tr>
@@ -29,6 +30,7 @@
                                 $data = array(
                                     'type'=>'text',
                                     'name'=>'username',
+                                    'id'=>'username',
                                     'style'=>'height: 30px;margin-left: 10px'
                                 );
                                 echo form_input($data);
@@ -42,7 +44,7 @@
                             <td>
                                 <?php
                                 $data = array(
-
+                                    'id'=>'password',
                                     'style'=>'height: 30px;margin-left: 10px'
                                 );
                                 echo form_password($data);

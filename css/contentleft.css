@@ -1,7 +1,7 @@
 .left
 {
     border: 1px solid black;
-    width: auto;
+    width: 200px;
     display: inline-block;
     float: left;
     padding: 3px;
