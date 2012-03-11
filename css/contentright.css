@@ -19,7 +19,8 @@
     height: auto;
     padding: 5px;
     position: relative;
-    min-height: 139px
+    min-height: 139px;
+    word-wrap: break-word
 }
 .panel_menu_header_right h2
 {
