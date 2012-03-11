@@ -51,9 +51,7 @@
                             <tr>
                                 <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=sil">Silabus</a></td>
                             </tr>
-                            <tr>
-                                <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=aja">Materi Ajar</a></td>
-                            </tr>
+
                             <tr>
                                 <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=kal">Kalender Akademik</a></td>
                             </tr>

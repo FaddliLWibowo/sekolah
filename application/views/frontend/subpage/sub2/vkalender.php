@@ -1,8 +1,35 @@
-<?php
-/**
- * Created by JetBrains PhpStorm.
- * User: root
- * Date: 3/10/12
- * Time: 2:06 PM
- * To change this template use File | Settings | File Templates.
- */
+<div class="content">
+    <?php $this->load->view('frontend/element/vcontentleft'); ?>
+    <div class="center_all" style="width: 70%;height: 80%">
+        <h2>kalender</h2>
+
+        <table style="margin-left: 86px">
+            <tr>
+                <td><img src="<?php echo base_url(); ?>img/kalender1.jpg" alt=""/></td>
+
+            </tr>
+            <tr>
+                <td><img src="<?php echo base_url(); ?>img/kalender2.jpg" alt=""/></td>
+
+            </tr>
+            <tr>
+                <td><img src="<?php echo base_url(); ?>img/kalender3.jpg" alt=""/></td>
+
+            </tr>
+            <tr>
+                <td><img src="<?php echo base_url(); ?>img/kalender4.jpg" alt=""/></td>
+
+            </tr>
+            <tr>
+                <td><img src="<?php echo base_url(); ?>img/kalender5.jpg" alt=""/></td>
+
+            </tr>
+            <tr>
+                <td><img src="<?php echo base_url(); ?>img/kalender6.jpg" alt=""/></td>
+
+            </tr>
+
+        </table>
+
+    </div>
+</div>
