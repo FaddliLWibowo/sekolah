@@ -1,6 +1,6 @@
 <div class="content">
     <?php $this->load->view('frontend/element/vcontentleft'); ?>
-    <div class="center_all" style="width: 70%;height: 80%">
+    <div class="center_all" style="width: 70%;min-height: 384px">
         <h2>Direktori Guru dan TU</h2>
         <form>
             <table style="margin-bottom: 10px">
@@ -20,7 +20,7 @@
                         <input type="text"/>&nbsp;&nbsp;
                     </td>
                     <td>
-                        <input type="submit" value="CARI"/>
+                        <input type="submit" value="CARI" class="btn-info"/>
                     </td>
                 </tr>
             </table>

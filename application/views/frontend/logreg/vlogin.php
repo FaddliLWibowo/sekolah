@@ -10,6 +10,7 @@
                     &nbsp;&nbsp;&nbsp;
                 </td>
                 <td>
+                    &nbsp;&nbsp;
                     <?php
                         $data = array(
                             'name'=>'username',
@@ -25,6 +26,7 @@
                     &nbsp;&nbsp;&nbsp;
                 </td>
                 <td>
+                    &nbsp;&nbsp;
                     <?php
                         $data = array(
                             'name'=>'password',
@@ -39,22 +41,27 @@
             </tr>
             <tr>
                 <td align="center">
+                    &nbsp;&nbsp;
                     <?php
                         $data = array(
                             'id'=>'login',
                             'value'=>'Login',
-                            'style'=>'cursor:pointer'
+                            'style'=>'cursor:pointer;margin-right: -50px',
+                            'class'=>'btn'
                         );
                         echo form_submit($data);
                     ?>
                 </td>
                 <td align="center">
+                    &nbsp;&nbsp;
                     <?php
                         $data = array(
                             'id'=>'register',
                             'type'=>'button',
                             'value'=>'Register',
-                            'style'=>'cursor:pointer'
+                            'style'=>'cursor:pointer',
+                            'class'=>'btn-primary',
+                            'style'=>'margin-right: -10px'
                         );
                         echo form_input($data);
                     ?>

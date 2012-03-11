@@ -1,6 +1,6 @@
 <div class="content">
     <?php $this->load->view('frontend/element/vcontentleft'); ?>
-    <div class="center_all" style="width: 70%;height: 80%">
+    <div class="center_all" style="width: 70%;min-height: 384px">
         <h2>Visi</h2>
 
         <ol>

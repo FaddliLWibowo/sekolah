@@ -76,9 +76,7 @@
                         <tr>
                             <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=dirA">Direktori Alumni</a></td>
                         </tr>
-                        <tr>
-                            <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=inf">Info Alumni</a></td>
-                        </tr>
+
                         </table>
                     </li>
                     <li>
