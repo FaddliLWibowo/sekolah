@@ -15,10 +15,7 @@ class Csub extends CI_Controller{
         {
             $data['title']= "Sejarah SMA NEGERI ABUNG TINGGI";
         }
-        elseif($menu=="kep")
-        {
-            $data['title']= "KepSek SMA NEGERI ABUNG TINGGI";
-        }
+
         elseif($menu=="sar")
         {
             $data['title']= "Sarana SMA NEGERI ABUNG TINGGI";

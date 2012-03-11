@@ -1,6 +1,6 @@
 <div class="panel_menu">
     <div class="panel_menu_header_right">
-        <h2>pencarian</h2>
+        <h2><i class="icon-leaf"></i>pencarian</h2>
         <div style="height: 40px">
             <?php echo form_open(); ?>
             <table>

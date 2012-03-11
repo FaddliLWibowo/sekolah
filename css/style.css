@@ -7,6 +7,9 @@
 
 @import "reset.css";
 
+@import "bootstrap-responsive.css";
+@import "bootstrap.css";
+
 /*@import "jquery.ui.all.css";*/
 
 body

@@ -1,8 +1,17 @@
-<?php
-/**
- * Created by JetBrains PhpStorm.
- * User: root
- * Date: 3/10/12
- * Time: 2:00 PM
- * To change this template use File | Settings | File Templates.
- */
+<div class="content">
+    <?php $this->load->view('frontend/element/vcontentleft'); ?>
+    <div class="center_all" style="width: 70%;height: 600px">
+        <h2>Sarana Prasarana :</h2>
+
+        <ul>
+            <li>
+                Luas Tanah                            : 35.943 M2
+            </li>
+            <li>Luas Bangunan                       : 12.075</li>
+            <li>Jumlah Bangunan                    : 6 Gedung</li>
+        </ul>
+
+
+
+    </div>
+</div>

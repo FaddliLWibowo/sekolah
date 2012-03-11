@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <html>
     <head>
         <title><?php echo $title; ?></title>
@@ -33,9 +34,7 @@
                             <tr>
                                 <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=sej">Sejarah Singkat</a></td>
                             </tr>
-                            <tr>
-                                <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=kep">Kepala Sekolah</a></td>
-                            </tr>
+
                             <tr>
                                 <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=sar">Sarana & Prasarana</a></td>
                             </tr>

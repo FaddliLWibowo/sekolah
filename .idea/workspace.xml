@@ -36,21 +36,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/frontend/element/vcontentright.php" />
-        <option value="$PROJECT_DIR$/application/views/frontend/element/vcontentcenter.php" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/application/views/backend/element/vcontent.php" />
-        <option value="$PROJECT_DIR$/application/views/frontend/element/vheader.php" />
-        <option value="$PROJECT_DIR$/js/header.js" />
-        <option value="$PROJECT_DIR$/css/contentcenter.css" />
-        <option value="$PROJECT_DIR$/application/views/frontend/logreg/vlogin.php" />
-        <option value="$PROJECT_DIR$/css/contentleft.css" />
-        <option value="$PROJECT_DIR$/application/views/frontend/element/vcontentleft.php" />
-        <option value="$PROJECT_DIR$/js/jquery.ui.datepicker.js" />
-        <option value="$PROJECT_DIR$/application/views/frontend/menu/vpencarian.php" />
-        <option value="$PROJECT_DIR$/application/views/frontend/menu/vinfosekolah.php" />
         <option value="$PROJECT_DIR$/css/contentright.css" />
+        <option value="$PROJECT_DIR$/css/header.css" />
+        <option value="$PROJECT_DIR$/css/content.css" />
+        <option value="$PROJECT_DIR$/css/footer.css" />
+        <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub1/vmotto.php" />
+        <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub1/vsejarah.php" />
+        <option value="$PROJECT_DIR$/application/controllers/subpage/csub.php" />
+        <option value="$PROJECT_DIR$/application/views/frontend/element/vheader.php" />
+        <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub1/vsarana.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub1/vprestasi.php" />
+        <option value="$PROJECT_DIR$/application/views/frontend/menu/vpencarian.php" />
+        <option value="$PROJECT_DIR$/css/contentcenter.css" />
         <option value="$PROJECT_DIR$/application/views/frontend/menu/vgaleripoto.php" />
+        <option value="$PROJECT_DIR$/application/views/frontend/menu/vinfosekolah.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/menu/vmateriajar.php" />
       </list>
     </option>
@@ -116,6 +116,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="css_admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -149,6 +163,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="subpage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="subpage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sub1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -252,6 +322,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="subpage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -276,10 +386,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/css_admin" />
-      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -418,110 +528,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/header.js">
+    <entry file="file://$PROJECT_DIR$/css/header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="11" selection-start="2008" selection-end="2008" vertical-scroll-proportion="0.6454545" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vheader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="67" selection-start="4943" selection-end="4943" vertical-scroll-proportion="2.1929824" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/backend/element/vcontent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="40" selection-start="3826" selection-end="3826" vertical-scroll-proportion="0.256654" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/contentcenter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+        <state line="20" column="1" selection-start="103" selection-end="130" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/jquery.ui.base.css">
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub1/vsejarah.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="21" selection-start="1900" selection-end="1997" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/subpage/csub.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vheader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="28" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.2631579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub1/vsarana.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="55" selection-start="142" selection-end="142" vertical-scroll-proportion="0.054545455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub1/vmotto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="44" selection-start="0" selection-end="1717" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap-responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.ui.datepicker.js">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1506" column="97" selection-start="61939" selection-end="61939" vertical-scroll-proportion="0.5078125">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/jquery.ui.datepicker.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="40" selection-start="2124" selection-end="2127" vertical-scroll-proportion="0.765625">
+        <state line="40" column="13" selection-start="698" selection-end="698" vertical-scroll-proportion="-0.60546875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vcontentleft.php">
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub1/vprestasi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="70" selection-start="263" selection-end="263" vertical-scroll-proportion="0.26732674">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/logreg/vlogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="53" selection-start="1861" selection-end="1861" vertical-scroll-proportion="1.4851485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/contentleft.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="280" selection-end="306" vertical-scroll-proportion="0.59546316">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vpencarian.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="123" selection-end="123" vertical-scroll-proportion="0.08555133">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vinfosekolah.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="229" selection-end="229" vertical-scroll-proportion="-5.0">
+        <state line="20" column="17" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/contentright.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="16" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vcontentright.php">
+    <entry file="file://$PROJECT_DIR$/css/contentcenter.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="270" selection-end="270" vertical-scroll-proportion="-3.125">
+        <state line="17" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vpencarian.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="37" selection-start="79" selection-end="104" vertical-scroll-proportion="-1.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vgaleripoto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="150" selection-end="150" vertical-scroll-proportion="-2.5">
+        <state line="2" column="37" selection-start="104" selection-end="104" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vinfosekolah.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="37" selection-start="104" selection-end="104" vertical-scroll-proportion="-1.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vmateriajar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="228" selection-end="228" vertical-scroll-proportion="0.22813688">
+        <state line="2" column="37" selection-start="104" selection-end="104" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="24" selection-start="234" selection-end="234" vertical-scroll-proportion="0.27272728">
           <folding />
         </state>
       </provider>
