@@ -35,30 +35,34 @@
             <table class="table table-condensed">
                 <thead>
                 <tr>
-                    <th>#</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Language</th>
+                    <th>No</th>
+                    <th>NIS</th>
+                    <th>Nama</th>
+                    <th>Kelas</th>
+                    <th>Detail</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                     <td>1</td>
-                    <td>Mark</td>
+                    <td>-</td>
                     <td>Otto</td>
-                    <td>CSS</td>
+                    <td>3D</td>
+                    <td><a href=""><i class="icon-user"></i></a></td>
                 </tr>
                 <tr>
-                    <td>2</td>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>Javascript</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>Otto</td>
+                    <td>3D</td>
+                    <td><a href=""><i class="icon-user"></i></a></td>
                 </tr>
                 <tr>
-                    <td>3</td>
-                    <td>Stu</td>
-                    <td>Dent</td>
-                    <td>HTML</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>Otto</td>
+                    <td>3D</td>
+                    <td><a href=""><i class="icon-user"></i></a></td>
                 </tr>
                 </tbody>
             </table>

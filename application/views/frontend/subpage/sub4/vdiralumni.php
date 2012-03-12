@@ -44,30 +44,30 @@
             <table class="table table-condensed">
                 <thead>
                 <tr>
-                    <th>#</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Language</th>
+                    <th>Nama</th>
+                    <th>Angkatan</th>
+                    <th>Email</th>
+                    
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>1</td>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>CSS</td>
+                    <td><a href=""><i class="icon-file"></i>otto</a></td>
+                    <td>1990</td>
+                    <td>Otto@gmail.com</td>
+
                 </tr>
                 <tr>
-                    <td>2</td>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>Javascript</td>
+                    <td><a href=""><i class="icon-file"></i></a></td>
+                    <td>1990</td>
+                    <td>Otto@gmail.com</td>
+
                 </tr>
                 <tr>
-                    <td>3</td>
-                    <td>Stu</td>
-                    <td>Dent</td>
-                    <td>HTML</td>
+                    <td><a href=""><i class="icon-file"></i></a></td>
+                    <td>1990</td>
+                    <td>Otto@gmail.com</td>
+
                 </tr>
                 </tbody>
             </table>
