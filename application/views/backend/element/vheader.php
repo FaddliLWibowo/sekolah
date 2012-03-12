@@ -35,7 +35,12 @@
                             <a href="#"
                                class="dropdown-toggle"
                                data-toggle="dropdown">
-                                Ondoel
+                                <?php
+                                    if(isset($welcome))
+                                    {
+                                         echo "$welcome";
+                                    }
+                                ?>
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu">

@@ -7,11 +7,8 @@
         <div class="wrap">
             <div class="panel">
                 <?php
-                $data = array(
-                    'id'=>'login',
-                    'method'=>'post'
-                );
-                echo form_open('/index.php/cpanellogin/cekLogin',$data);
+
+                echo form_open(  base_url().'index.php/cpanellogin/cek');
                 ?>
                     <table>
                         <tr>
@@ -30,7 +27,7 @@
                                 $data = array(
                                     'type'=>'text',
                                     'name'=>'username',
-                                    'id'=>'username',
+
                                     'style'=>'height: 30px;margin-left: 10px'
                                 );
                                 echo form_input($data);
@@ -44,7 +41,8 @@
                             <td>
                                 <?php
                                 $data = array(
-                                    'id'=>'password',
+
+                                    'name'=>'password',
                                     'style'=>'height: 30px;margin-left: 10px'
                                 );
                                 echo form_password($data);
@@ -68,6 +66,7 @@
                         </tr>
                     </table>
                 <?php echo form_close(); ?>
+
             </div>
         </div>
     </body>

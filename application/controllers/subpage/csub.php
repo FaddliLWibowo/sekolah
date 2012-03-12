@@ -85,6 +85,10 @@ class Csub extends CI_Controller{
             $data['title']= "Tamu SMA NEGERI ABUNG TINGGI";
         }
 
+        elseif($menu=="reg"){
+            $data['title']= "Registrasi";
+        }
+
         $this->load->view('frontend/element/vheader',$data);
 
         $menu = $_GET['menu'];
@@ -152,6 +156,11 @@ class Csub extends CI_Controller{
         }
         else if($menu=="tam"){
             $this->load->view('frontend/subpage/sub5/vtamu');
+        }
+
+        else if($menu=="reg")
+        {
+            $this->load->view('frontend/logreg/vregister');
         }
 
         $this->load->view('frontend/element/vfooter');

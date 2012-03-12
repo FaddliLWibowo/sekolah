@@ -1,5 +1,7 @@
 <?php
 class Cpanellogin extends CI_Controller{
+
+
     function __construct(){
         parent::__construct();
         $this->load->model('mlogin');
@@ -8,30 +10,33 @@ class Cpanellogin extends CI_Controller{
         $this->load->view('backend/vpanellogin');
     }
 
-
-    function cekLogin() {
-        $username = $this->input->post('username');
-        $pass = md5($this->input->post('password'));
-        foreach ($this->mlogin->getAll() as $r):
-            if ($username == $r->username && $pass == $r->password) {
-                $data = array('ID' => $r->id, 'USERNAME' => $r->username, 'PASS' => $r->password);
-                $this->session->set_userdata($data);
-                redirect('backend/cpageadmin');
-            } else {
-                $this->index();
-            }
-        endforeach;
-    }
-
-    function logout(){
-        $this->session->unset_userdata('USERNAME');
-        $this->session->unset_userdata('PASSWORD');
-        $this->session->unset_userdata('ID');
-        $this->index();
-    }
-
-
-
+//    function cek(){
+//        $username=$this->input->post('username');
+//        $password=$this->input->post('password');
+//        $query = $this->db->query("SELECT * FROM admin WHERE username='$username' AND password='$password'");
+//        $this->mlogin->login($query);
+//
+//        if($query->num_rows() == 1)
+//        {
+//            $nama = $query->row()->username;
+//            $this->session->set_userdata('username',$nama);
+//            $data['welcome'] = "Welcome $nama";
+//            $this->redirect('backend/vheader', $data);
+////            $this->load->view('backend/vcontent');
+////            $this->load->view('backend/vfooter');
+//        }
+//        else {
+//            // query error
+//            $data['error']='!! Wrong Username or Password !!';
+//            $this->index($data);
+//        }
+//    }
+//
+//    function logout() {
+//        $this->session->sess_destroy();
+//        $data['logout'] = 'You have been logged out.';
+//        $this->index($data);
+//    }
 
 }
 ?>

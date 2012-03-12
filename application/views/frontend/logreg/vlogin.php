@@ -54,17 +54,8 @@
                 </td>
                 <td align="center">
                     &nbsp;&nbsp;
-                    <?php
-                        $data = array(
-                            'id'=>'register',
-                            'type'=>'button',
-                            'value'=>'Register',
-                            'style'=>'cursor:pointer',
-                            'class'=>'btn-primary',
-                            'style'=>'margin-right: -10px'
-                        );
-                        echo form_input($data);
-                    ?>
+                    <a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=reg"><button style="cursor: pointer;margin-right: -10px" class="btn-primary">Register</button></a>
+
                 </td>
             </tr>
         </table>
