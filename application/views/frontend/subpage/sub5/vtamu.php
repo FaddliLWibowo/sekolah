@@ -1,6 +1,6 @@
 <div class="content">
     <?php $this->load->view('frontend/element/vcontentleft'); ?>
-    <div class="center_all" style="width: 70%;min-height: 384px">
+    <div class="center_all" style="width: 70%;min-height: 384px;word-wrap: break-word">
 
         <fieldset>
             <legend>Buku Tamu</legend>
@@ -12,14 +12,14 @@
                 </div>
             </div>
             <div class="control-group">
-                <label class="control-label" for="input01">Nama</label>
+                <label class="control-label" for="input01">Email</label>
                 <div class="controls">
                     <input type="text" class="input-xlarge" id="input01"/>
 
                 </div>
             </div>
             <div class="control-group">
-                <label class="control-label" for="input01">Nama</label>
+                <label class="control-label" for="input01">Alamat</label>
                 <div class="controls">
                     <input type="text" class="input-xlarge" id="input01"/>
 
@@ -28,12 +28,12 @@
 
 
 
-<!--            <div class="control-group">-->
-<!--                <label class="control-label" for="textarea">Textarea</label>-->
-<!--                <div class="controls">-->
-<!--                    <textarea class="input-xlarge" id="textarea" rows="3"/>-->
-<!--                </div>-->
-<!--            </div>-->
+            <div class="control-group">
+                <label class="control-label" for="textarea">Textarea</label>
+                <div class="controls">
+                    <textarea class="input-xlarge" id="textarea" rows="3"/>
+                </div>
+            </div>
 
             <div>
                 <button type="submit" class="btn btn-primary">Save changes</button>

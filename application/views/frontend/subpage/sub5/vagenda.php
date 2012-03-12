@@ -1,6 +1,6 @@
 <div class="content">
     <?php $this->load->view('frontend/element/vcontentleft'); ?>
-    <div class="center_all" style="width: 70%;min-height: 384px">
+    <div class="center_all" style="width: 70%;min-height: 384px;word-wrap: break-word">
         <h2>Agenda</h2>
 
         <form>
@@ -46,30 +46,30 @@
             <table class="table table-condensed">
                 <thead>
                 <tr>
-                    <th>#</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Language</th>
+                    <th>No</th>
+                    <th>Tanggal</th>
+                    <th>Acara</th>
+                    <th>Kegiatan</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                     <td>1</td>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>CSS</td>
+                    <td>12/02/2012</td>
+                    <td>hut RI</td>
+                    <td>upacara</td>
                 </tr>
                 <tr>
-                    <td>2</td>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>Javascript</td>
+                    <td>1</td>
+                    <td>12/02/2012</td>
+                    <td>hut RI</td>
+                    <td>upacara</td>
                 </tr>
                 <tr>
-                    <td>3</td>
-                    <td>Stu</td>
-                    <td>Dent</td>
-                    <td>HTML</td>
+                    <td>1</td>
+                    <td>12/02/2012</td>
+                    <td>hut RI</td>
+                    <td>upacara</td>
                 </tr>
                 </tbody>
             </table>

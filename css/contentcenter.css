@@ -3,6 +3,7 @@
     border: 1px solid black;
     width: 461px;
     display: inline-block;
+    min-height:729px;
 }
 .center_all
 {
