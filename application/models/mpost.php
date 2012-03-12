@@ -4,12 +4,18 @@ class Mpost extends CI_Model{
     private $table_name;
     private $table_name_siswa;
     private $table_name_alumni;
+    private $table_name_infosekolah;
+    private $table_name_materiajar;
+    private $table_name_artikel;
 
     public function __construct(){
         parent::__construct();
         $this->table_name = 'guru';
         $this->table_name_siswa = 'siswa';
         $this->table_name_alumni='alumni';
+        $this->table_name_infosekolah='infosekolah';
+        $this->table_name_materiajar='materiajar';
+        $this->table_name_artikel='artikel';
     }
 
     function create_data($data){
@@ -45,7 +51,37 @@ class Mpost extends CI_Model{
         }
     }
 
+    function create_data_infosekolah($datainfo){
+        $this->db->insert($this->table_name_infosekolah,$datainfo);
+        if($this->db->affected_rows() > 0){
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    function create_data_materiajar($datamateri){
+        $this->db->insert($this->table_name_materiajar,$datamateri);
+        if($this->db->affected_rows() > 0){
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 
+    function create_data_artikel($dataartikel){
+        $this->db->insert($this->table_name_artikel,$dataartikel);
+        if($this->db->affected_rows() > 0){
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 
 
     function read_data(){

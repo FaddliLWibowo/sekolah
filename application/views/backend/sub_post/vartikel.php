@@ -2,13 +2,13 @@
 $data = array(
     'class'=>'well'
 );
-echo form_open('',$data);
+echo form_open(base_url().'index.php/backend/cpageadmin/create_artikel',$data);
 ?>
 <table>
     <tr>
         <td>
             <?php
-            echo form_label('Title Artikel','title_info');
+            echo form_label('Title Artikel','title_artikel');
             ?>
         </td>
     </tr>
@@ -18,7 +18,7 @@ echo form_open('',$data);
             $data = array(
                 'class'=>'span3',
                 'style'=>'height: 25px',
-                'name'=>'title_info'
+                'name'=>'title_artikel'
             );
             echo form_input($data);
             ?>
@@ -28,13 +28,13 @@ echo form_open('',$data);
         <td>
             <?php
 
-            echo form_label('Note','note_info');
+            echo form_label('Note','note_artikel');
             ?>
         </td>
     </tr>
     <tr>
         <td>
-            <textarea rows="10" cols="40" style="width: 1057px" name="note_info"></textarea>
+            <textarea rows="10" cols="40" style="width: 1057px" name="note_artikel"></textarea>
         </td>
     </tr>
     <tr>
@@ -52,7 +52,7 @@ echo form_open('',$data);
                 'class'=>'btn',
                 'value'=>'cancel'
             );
-            echo form_submit($data);
+            echo form_reset($data);
             ?>
 
         </td>
