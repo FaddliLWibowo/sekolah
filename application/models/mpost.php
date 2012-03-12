@@ -2,10 +2,14 @@
 class Mpost extends CI_Model{
 
     private $table_name;
+    private $table_name_siswa;
+    private $table_name_alumni;
 
     public function __construct(){
         parent::__construct();
         $this->table_name = 'guru';
+        $this->table_name_siswa = 'siswa';
+        $this->table_name_alumni='alumni';
     }
 
     function create_data($data){
@@ -18,6 +22,31 @@ class Mpost extends CI_Model{
             return false;
         }
     }
+
+    function create_data_siswa($datasiswa){
+        $this->db->insert($this->table_name_siswa,$datasiswa);
+        if($this->db->affected_rows() > 0){
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    function create_data_alumni($dataalumni){
+        $this->db->insert($this->table_name_alumni,$dataalumni);
+        if($this->db->affected_rows() > 0){
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+
+
 
     function read_data(){
         $sql = $this->db->get($this->table_name);

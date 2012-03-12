@@ -19,8 +19,34 @@ class Cpageadmin extends CI_Controller{
             'nama' => $this->input->post('nama'),
             'pelajaran' => $this->input->post('pelajaran'),
             'jabatan' => $this->input->post('jabatan')
+
         );
+
         $this->mpost->create_data($data);
+        $this->index();
+    }
+
+    function create_siswa() //untuk menambah data cd
+    {
+
+        $datasiswa = array(
+            'nis'=>$this->input->post('nis'),
+            'nama'=>$this->input->post('nama'),
+            'kelas'=>$this->input->post('kelas')
+        );
+        $this->mpost->create_data_siswa($datasiswa);
+        $this->index();
+    }
+
+    function create_alumni() //untuk menambah data cd
+    {
+
+        $dataalumni = array(
+            'nama_alumni'=>$this->input->post('nama_alumni'),
+            'angkatan'=>$this->input->post('angkatan'),
+            'email'=>$this->input->post('email')
+        );
+        $this->mpost->create_data_alumni($dataalumni);
         $this->index();
     }
 

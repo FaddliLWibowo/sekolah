@@ -2,7 +2,7 @@
 $data = array(
     'class'=>'well'
 );
-echo form_open('',$data);
+echo form_open(base_url().'index.php/backend/cpageadmin/create_alumni',$data);
 ?>
 <table>
     <tr>

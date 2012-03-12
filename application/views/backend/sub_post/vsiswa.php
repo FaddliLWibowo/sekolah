@@ -2,7 +2,7 @@
 $data = array(
     'class'=>'well'
 );
-echo form_open('',$data);
+echo form_open(base_url().'index.php/backend/cpageadmin/create_siswa',$data);
 ?>
 <table>
     <tr>
@@ -96,7 +96,7 @@ echo form_open('',$data);
                 'class'=>'btn',
                 'value'=>'cancel'
             );
-            echo form_submit($data);
+            echo form_reset($data);
             ?>
 
         </td>

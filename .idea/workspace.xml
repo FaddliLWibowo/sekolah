@@ -22,37 +22,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mpost.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mpost.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/mpost.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="33" selection-start="162" selection-end="162" vertical-scroll-proportion="0.19090909">
+            <state line="11" column="42" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cpageadmin.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="cpageadmin.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/backend/cpageadmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="22" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
+            <state line="44" column="24" selection-start="1189" selection-end="1200" vertical-scroll-proportion="0.6272727">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vcontent.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/backend/element/vcontent.php">
+      <file leaf-file-name="valumni.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/backend/sub_post/valumni.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="46" selection-start="3745" selection-end="3745" vertical-scroll-proportion="-23.166666">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vguru.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/backend/sub_post/vguru.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="62" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.5">
+            <state line="4" column="69" selection-start="113" selection-end="113" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
@@ -73,8 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/backend/sub_post/vmateriajar.php" />
-        <option value="$PROJECT_DIR$/application/views/backend/element/vheader.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/logreg/vlogin.php" />
         <option value="$PROJECT_DIR$/application/controllers/subpage/csub.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/logreg/vregister.php" />
@@ -86,9 +75,11 @@
         <option value="$PROJECT_DIR$/application/controllers/data/cpost.php" />
         <option value="$PROJECT_DIR$/js/jstyle.js" />
         <option value="$PROJECT_DIR$/application/views/backend/element/vcontent.php" />
-        <option value="$PROJECT_DIR$/application/models/mpost.php" />
         <option value="$PROJECT_DIR$/application/views/backend/sub_post/vguru.php" />
+        <option value="$PROJECT_DIR$/application/views/backend/sub_post/vsiswa.php" />
         <option value="$PROJECT_DIR$/application/controllers/backend/cpageadmin.php" />
+        <option value="$PROJECT_DIR$/application/views/backend/sub_post/valumni.php" />
+        <option value="$PROJECT_DIR$/application/models/mpost.php" />
       </list>
     </option>
   </component>
@@ -509,16 +500,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/subpage/csub.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="13" selection-start="4434" selection-end="4434" vertical-scroll-proportion="4.3636365" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="68" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.3272727" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/maccount.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="36" selection-start="479" selection-end="479" vertical-scroll-proportion="0.46363637" />
@@ -575,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/backend/element/vcontent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="46" selection-start="3745" selection-end="3745" vertical-scroll-proportion="-23.166666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/backend/sub_post/vguru.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="62" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.5">
@@ -589,16 +563,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/backend/cpageadmin.php">
+    <entry file="file://$PROJECT_DIR$/application/views/backend/sub_post/vsiswa.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
+        <state line="4" column="68" selection-start="112" selection-end="112" vertical-scroll-proportion="0.11406844">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/backend/element/vcontent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="46" selection-start="3745" selection-end="3745" vertical-scroll-proportion="1.0570343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/backend/sub_post/valumni.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="69" selection-start="113" selection-end="113" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/mpost.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="162" selection-end="162" vertical-scroll-proportion="0.19090909">
+        <state line="11" column="42" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/backend/cpageadmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="24" selection-start="1189" selection-end="1200" vertical-scroll-proportion="0.6272727">
           <folding />
         </state>
       </provider>
