@@ -2,6 +2,7 @@
 <html>
     <head>
         <title><?php echo $title; ?></title>
+        <link rel="shortcut icon" href="<?php echo base_url(); ?>img/logo.ico" >
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/style.css"/>
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/jquery.ui.all.css"/>
         <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.tools.min.js"></script>
