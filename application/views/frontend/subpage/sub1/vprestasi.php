@@ -1,41 +1,42 @@
 <div class="content">
     <?php $this->load->view('frontend/element/vcontentleft'); ?>
     <div class="center_all" style="width: 70%;min-height: 384px">
-        <h2>Visi</h2>
+        <h2>PRESTASI SISWA SMA N ABUNG TINGGI</h2>
 
         <table class="table table-condensed">
             <thead>
             <tr>
-                <th>#</th>
-                <th class="yellow">First Name</th>
-                <th class="blue">Last Name</th>
-                <th class="green">Language</th>
+                <th>No</th>
+                <th class="yellow">jenis</th>
+                <th class="blue">Tingkat</th>
+                <th class="green">Pelaksana</th>
+
             </tr>
             </thead>
             <tbody>
             <tr>
                 <td>1</td>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>CSS</td>
+                <td> Lomba desain grafis elektro Maret 07</td>
+                <td>Kota</td>
+                <td>Politeknik Negeri Semarang an. Berda Karendrazssxsxsxsxsxsxs Putra</td>
             </tr>
             <tr>
-                <td>2</td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>Javascript</td>
+                <td>1</td>
+                <td> Lomba desain grafis elektro Maret 07</td>
+                <td>Kota</td>
+                <td>Politeknik Negeri Semarang an. Berda Karendrazssxsxsxsxsxsxs Putra</td>
             </tr>
             <tr>
-                <td>3</td>
-                <td>Stu</td>
-                <td>Dent</td>
-                <td>HTML</td>
+                <td>1</td>
+                <td> Lomba desain grafis elektro Maret 07</td>
+                <td>Kota</td>
+                <td>Politeknik Negeri Semarang an. Berda Karendrazssxsxsxsxsxsxs Putra</td>
             </tr>
             <tr>
-                <td>4</td>
-                <td>Brosef</td>
-                <td>Stalin</td>
-                <td>HTML</td>
+                <td>1</td>
+                <td> Lomba desain grafis elektro Maret 07</td>
+                <td>Kota</td>
+                <td>Politeknik Negeri Semarang an. Berda Karendrazssxsxsxsxsxsxs Putra</td>
             </tr>
             </tbody>
         </table>
