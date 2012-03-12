@@ -5,8 +5,8 @@
 @import "bootstrap.css";
 body
 {
-    background: -webkit-linear-gradient(top,grey,white);
-    background: -moz-linear-gradient(top,grey,white);
+    background: -webkit-linear-gradient(top,white,#808080);
+    background: -moz-linear-gradient(top,white,#808080);
     background: -ms-linear-gradient(top,grey,white);
     background: -o-linear-gradient(top,grey,white);
 }

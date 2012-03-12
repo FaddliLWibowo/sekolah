@@ -22,46 +22,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="vgaleripoto.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vgaleripoto.php">
+      <file leaf-file-name="vcontent.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/backend/element/vcontent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="15" column="31" selection-start="542" selection-end="542" vertical-scroll-proportion="0.4385965">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contentright.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/contentright.css">
+      <file leaf-file-name="vheader.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/backend/element/vheader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="25" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+            <state line="6" column="0" selection-start="350" selection-end="350" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vinfosekolah.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vinfosekolah.php">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css_admin/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="76" selection-start="365" selection-end="365" vertical-scroll-proportion="0.17110266">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vmateriajar.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vmateriajar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vpencarian.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vpencarian.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="7" column="57" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,9 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub1/vprestasi.php" />
-        <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub1/vmotto.php" />
-        <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub2/vsilabus.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub2/vkalender.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub2/vdirguru.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub3/vprestasi.php" />
@@ -98,6 +77,9 @@
         <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub5/vtamu.php" />
         <option value="$PROJECT_DIR$/css/contentright.css" />
         <option value="$PROJECT_DIR$/application/views/frontend/menu/vinfosekolah.php" />
+        <option value="$PROJECT_DIR$/application/views/backend/element/vheader.php" />
+        <option value="$PROJECT_DIR$/css_admin/style.css" />
+        <option value="$PROJECT_DIR$/application/views/backend/element/vcontent.php" />
       </list>
     </option>
   </component>
@@ -133,7 +115,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -149,6 +130,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css_admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,6 +497,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="element" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -560,6 +595,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -656,7 +692,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27279636" sideWeight="0.21875" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30319148" sideWeight="0.6701389" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31382978" sideWeight="0.6701389" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -724,114 +760,90 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub2/vdirguru.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="63" selection-start="0" selection-end="1960" vertical-scroll-proportion="0.05703422">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub5/vartikel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="0" selection-end="373" vertical-scroll-proportion="0.3">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub5/vberita.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="0" selection-end="372" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub5/vopini.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="170" selection-end="170" vertical-scroll-proportion="0.08181818">
-          <folding />
-        </state>
+        <state line="3" column="17" selection-start="170" selection-end="170" vertical-scroll-proportion="0.08181818" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub4/vdiralumni.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="63" selection-start="0" selection-end="2866" vertical-scroll-proportion="0.05703422">
-          <folding />
-        </state>
+        <state line="2" column="63" selection-start="0" selection-end="2866" vertical-scroll-proportion="0.05703422" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub5/vagenda.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="0" selection-end="2882" vertical-scroll-proportion="-23.75">
-          <folding />
-        </state>
+        <state line="38" column="0" selection-start="0" selection-end="2882" vertical-scroll-proportion="-23.75" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/subpage/csub.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.3">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub5/vtamu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="1038" selection-end="1334" vertical-scroll-proportion="0.57272726">
-          <folding />
-        </state>
+        <state line="24" column="0" selection-start="1038" selection-end="1334" vertical-scroll-proportion="0.57272726" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vcontentright.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="270" selection-end="270" vertical-scroll-proportion="0.14258555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vmateriajar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vpencarian.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="6" selection-start="270" selection-end="270" vertical-scroll-proportion="0.14258555" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/content.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/contentcenter.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/contentright.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="25" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vgaleripoto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/contentright.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="25" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vmateriajar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vpencarian.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vinfosekolah.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="76" selection-start="365" selection-end="365" vertical-scroll-proportion="0.17110266">
+        <state line="11" column="6" selection-start="399" selection-end="399" vertical-scroll-proportion="0.31368822">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css_admin/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="57" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/backend/element/vheader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="350" selection-end="350" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/backend/element/vcontent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="31" selection-start="542" selection-end="542" vertical-scroll-proportion="0.4385965">
           <folding />
         </state>
       </provider>
