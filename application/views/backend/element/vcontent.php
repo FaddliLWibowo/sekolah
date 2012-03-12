@@ -14,7 +14,26 @@
                         <a href="#lA" data-toggle="tab"><i class="icon-envelope"></i>&nbsp;Post</a>
                     </li>
                     <li class="">
-                        <a href="#lB" data-toggle="tab"><i class="icon-envelope"></i>&nbsp;List Post</a>
+                        <ul class="nav nav-pills">
+                            <li class="dropdown">
+                                <a class="dropdown-toggle"
+                                   data-toggle="dropdown"
+                                   href="#">
+                                    <i class="icon-envelope"></i>&nbsp;List Post
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list">Home</a></li>
+                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list">Input Guru</a></li>
+                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list">Input Siswa</a></li>
+                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list">Input Alumni</a></li>
+                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list">Info Sekolah</a></li>
+                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list">Materi Ajar</a></li>
+                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list">Artikel</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
                     </li>
                     <li class="">
                         <a href="#lC" data-toggle="tab"><i class="icon-cog"></i>&nbsp;Setting</a>
@@ -106,14 +125,7 @@
 
 
                     <form class="well">
-                        <label>Label name</label>
-                        <input type="text" class="span3" placeholder="Type something…"/>
-                        <span class="help-inline">Associated help text!</span>
-                        <label class="checkbox">
-                            <input type="checkbox"/>
-                            Check me out
-                        </label>
-                        <button type="submit" class="btn">Submit</button>
+                        as
                     </form>
 
                 </div>
