@@ -22,28 +22,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="vdirsiswa.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub3/vdirsiswa.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="47" selection-start="1914" selection-end="1914" vertical-scroll-proportion="0.65779465">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="csub.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/subpage/csub.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="69" selection-start="3682" selection-end="3682" vertical-scroll-proportion="0.0">
+            <state line="17" column="58" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mpost.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="vdiralumni.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub4/vdiralumni.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="47" selection-start="2553" selection-end="2553" vertical-scroll-proportion="-13.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mpost.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/mpost.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="143" column="53" selection-start="3486" selection-end="3486" vertical-scroll-proportion="0.0">
+            <state line="157" column="54" selection-start="3797" selection-end="3797" vertical-scroll-proportion="-2.3545454">
               <folding />
             </state>
           </provider>
@@ -64,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/backend/sub_post/vinfosekolah.php" />
         <option value="$PROJECT_DIR$/application/views/backend/sub_post/vmateriajar.php" />
         <option value="$PROJECT_DIR$/application/views/backend/sub_post/vartikel.php" />
         <option value="$PROJECT_DIR$/application/views/backend/element/vlist_content.php" />
@@ -77,9 +76,10 @@
         <option value="$PROJECT_DIR$/application/views/frontend/menu/vmateriajar.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/menu/vinfosekolah.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub2/vdirguru.php" />
-        <option value="$PROJECT_DIR$/application/models/mpost.php" />
-        <option value="$PROJECT_DIR$/application/controllers/subpage/csub.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub3/vdirsiswa.php" />
+        <option value="$PROJECT_DIR$/application/models/mpost.php" />
+        <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub4/vdiralumni.php" />
+        <option value="$PROJECT_DIR$/application/controllers/subpage/csub.php" />
       </list>
     </option>
   </component>
@@ -189,6 +189,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="subpage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="subpage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sub4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -542,13 +572,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/backend/element/vcontent_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="2512" selection-end="2512" vertical-scroll-proportion="1.4619883">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/backend/element/vfooter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="7" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
@@ -633,23 +656,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/mpost.php">
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub3/vdirsiswa.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="53" selection-start="3486" selection-end="3486" vertical-scroll-proportion="0.0">
+        <state line="53" column="47" selection-start="1914" selection-end="1914" vertical-scroll-proportion="0.74334604">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub4/vdiralumni.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="47" selection-start="2553" selection-end="2553" vertical-scroll-proportion="-13.125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/subpage/csub.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="69" selection-start="3682" selection-end="3682" vertical-scroll-proportion="0.0">
+        <state line="17" column="58" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub3/vdirsiswa.php">
+    <entry file="file://$PROJECT_DIR$/application/models/mpost.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="47" selection-start="1914" selection-end="1914" vertical-scroll-proportion="0.65779465">
+        <state line="157" column="54" selection-start="3797" selection-end="3797" vertical-scroll-proportion="-2.3545454">
           <folding />
         </state>
       </provider>

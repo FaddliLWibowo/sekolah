@@ -51,24 +51,22 @@
                 </tr>
                 </thead>
                 <tbody>
+                <?php $no = 1;
+                foreach($alumni_row as $row)
+                {?>
+
                 <tr>
-                    <td><a href=""><i class="icon-file"></i>otto</a></td>
-                    <td>1990</td>
-                    <td>Otto@gmail.com</td>
+                    <td><a href=""><i class="icon-file"></i><?php echo $row->nama_alumni; ?></a></td>
+                    <td><?php echo $row->angkatan; ?></td>
+                    <td><?php echo $row->email; ?></td>
 
                 </tr>
-                <tr>
-                    <td><a href=""><i class="icon-file"></i></a></td>
-                    <td>1990</td>
-                    <td>Otto@gmail.com</td>
 
-                </tr>
-                <tr>
-                    <td><a href=""><i class="icon-file"></i></a></td>
-                    <td>1990</td>
-                    <td>Otto@gmail.com</td>
+                    <?php
+                    $no++;
+                }
+                ?>
 
-                </tr>
                 </tbody>
             </table>
         </div>

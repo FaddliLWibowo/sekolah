@@ -14,6 +14,9 @@ class Csub extends CI_Controller{
         $data['siswa']='';
         $data['siswa_row']=$this->mpost->read_data_siswa();
 
+        $data['alumni']='';
+        $data['alumni_row']=$this->mpost->read_data_alumni();
+
         $menu = $_GET['menu'];
         if($menu=="mot")
         {
@@ -144,7 +147,7 @@ class Csub extends CI_Controller{
         }
 
         else if($menu=="dirA"){
-            $this->load->view('frontend/subpage/sub4/vdiralumni');
+            $this->load->view('frontend/subpage/sub4/vdiralumni',$data);
         }
         else if($menu=="inf"){
             $this->load->view('frontend/subpage/sub4/vinfo');
