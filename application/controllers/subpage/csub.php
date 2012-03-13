@@ -26,6 +26,9 @@ class Csub extends CI_Controller{
         $data['agenda']='';
         $data['agenda_row']=$this->mpost->read_data_agenda();
 
+        $data['artikel']='';
+        $data['artikel_row']=$this->mpost->read_data_artikel();
+
         $menu = $_GET['menu'];
         if($menu=="mot")
         {

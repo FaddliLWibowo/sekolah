@@ -249,6 +249,20 @@ class Mpost extends CI_Model{
         }
     }
 
+    function read_data_artikel(){
+        $sql = $this->db->get($this->table_name_artikel);
+        if($sql->num_rows()>0){
+            foreach($sql->result()as $row){
+                $data[]=$row;
+            }
+            return $data;
+        }
+        else
+        {
+            return null;
+        }
+    }
+
 
 
     //update ---------------------------------------------------------------------------

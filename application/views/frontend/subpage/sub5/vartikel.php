@@ -5,11 +5,20 @@
 
 
         <ol style="list-style: circle">
-            <li>askdjnkjdnkvjndjnvdjnvkjndvndjnvdndnvjdaskdjnkjdnkvjndjnvdjnvkjndvndjnvdndnvjdaskdjnkjdnkvjndjnvdjnvkjndvndjnvdndnvjdaskdjnkjdnkvjndjnvdjnvkjndvndjnvdndnvjdaskdjnkjdnkvjndjnvdjnvkjndvndjnvdndnvjdaskdjnkjdnkvjndjnvdjnvkjndvndjnvdndnvjd</li>
-            <li>as</li>
-            <li>as</li>
-            <li>as</li>
-            <li>as</li>
+            <?php $n = 1;
+            foreach($artikel_row as $row)
+            {?>
+
+            <li>
+                <?php echo $row->title_artikel; ?>
+                <br/>
+                <?php echo $row->note_artikel; ?>
+            </li>
+
+                <?php
+                $n++;
+            }
+            ?>
         </ol>
 
     </div>

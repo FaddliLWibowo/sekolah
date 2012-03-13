@@ -89,9 +89,6 @@
                             <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=art">Artikel</a></td>
                         </tr>
                         <tr>
-                            <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=ber">Berita</a></td>
-                        </tr>
-                        <tr>
                             <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=opi">Opini</a></td>
                         </tr>
                         <tr>

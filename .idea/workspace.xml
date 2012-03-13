@@ -22,37 +22,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="vagenda.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub5/vagenda.php">
+      <file leaf-file-name="vartikel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub5/vartikel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="18" selection-start="2729" selection-end="2729" vertical-scroll-proportion="0.82889736">
+            <state line="14" column="49" selection-start="466" selection-end="466" vertical-scroll-proportion="-8.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cpageadmin.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/backend/cpageadmin.php">
+      <file leaf-file-name="vheader.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vheader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="13" selection-start="3097" selection-end="3097" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mpost.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/mpost.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="44" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vagenda.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/backend/sub_post/vagenda.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="69" selection-start="113" selection-end="113" vertical-scroll-proportion="-2.5">
+            <state line="83" column="23" selection-start="4435" selection-end="4435" vertical-scroll-proportion="2.4269006">
               <folding />
             </state>
           </provider>
@@ -61,7 +43,16 @@
       <file leaf-file-name="csub.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/subpage/csub.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="67" selection-start="4609" selection-end="4609" vertical-scroll-proportion="0.0">
+            <state line="29" column="60" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mpost.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/mpost.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="252" column="55" selection-start="6069" selection-end="6069" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,8 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub2/vdirguru.php" />
-        <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub3/vdirsiswa.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub4/vdiralumni.php" />
         <option value="$PROJECT_DIR$/application/views/backend/sub_post/vprestasi.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub1/vprestasi.php" />
@@ -94,10 +83,12 @@
         <option value="$PROJECT_DIR$/application/views/backend/element/vheader.php" />
         <option value="$PROJECT_DIR$/js/jstyle.js" />
         <option value="$PROJECT_DIR$/application/controllers/backend/cpageadmin.php" />
-        <option value="$PROJECT_DIR$/application/models/mpost.php" />
-        <option value="$PROJECT_DIR$/application/controllers/subpage/csub.php" />
         <option value="$PROJECT_DIR$/application/views/backend/sub_post/vagenda.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub5/vagenda.php" />
+        <option value="$PROJECT_DIR$/application/controllers/subpage/csub.php" />
+        <option value="$PROJECT_DIR$/application/models/mpost.php" />
+        <option value="$PROJECT_DIR$/application/views/frontend/subpage/sub5/vartikel.php" />
+        <option value="$PROJECT_DIR$/application/views/frontend/element/vheader.php" />
       </list>
     </option>
   </component>
@@ -302,14 +293,6 @@
               <option name="myItemId" value="frontend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="subpage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sub2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -332,26 +315,8 @@
               <option name="myItemId" value="frontend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sekolah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sekolah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
+              <option name="myItemId" value="element" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -374,10 +339,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sub_post" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -436,28 +397,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="subpage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sekolah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sekolah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -628,29 +567,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/backend/sub_post/valumni.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="173" selection-end="173" vertical-scroll-proportion="-5.625">
-          <folding>
-            <marker date="1331561299000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1331561299000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1331561299000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1331561299000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1331561299000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1331561299000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1331561299000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1331561299000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1331561299000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1331561299000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1331561299000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1331561299000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1331561299000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1331561299000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1331561299000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/backend/element/vcontent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="62" selection-start="4050" selection-end="4050" vertical-scroll-proportion="23.75">
@@ -693,13 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub5/vartikel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub2/vdirguru.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.94106466">
@@ -721,30 +630,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/subpage/csub.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="67" selection-start="4609" selection-end="4609" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/backend/cpageadmin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="13" selection-start="3097" selection-end="3097" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/mpost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="44" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
+        <state line="113" column="13" selection-start="3097" selection-end="3097" vertical-scroll-proportion="0.5090909">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/backend/sub_post/vagenda.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="69" selection-start="113" selection-end="113" vertical-scroll-proportion="-2.5">
+        <state line="4" column="69" selection-start="113" selection-end="113" vertical-scroll-proportion="0.11406844">
           <folding />
         </state>
       </provider>
@@ -752,6 +647,34 @@
     <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub5/vagenda.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="18" selection-start="2729" selection-end="2729" vertical-scroll-proportion="0.82889736">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/subpage/csub.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="60" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/mpost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="252" column="55" selection-start="6069" selection-end="6069" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub5/vartikel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="49" selection-start="466" selection-end="466" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vheader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="23" selection-start="4435" selection-end="4435" vertical-scroll-proportion="2.4269006">
           <folding />
         </state>
       </provider>
