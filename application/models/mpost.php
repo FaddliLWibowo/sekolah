@@ -181,6 +181,20 @@ class Mpost extends CI_Model{
         }
     }
 
+    function read_data_prestasi(){
+        $sql = $this->db->get($this->table_name_prestasi);
+        if($sql->num_rows()>0){
+            foreach($sql->result()as $row){
+                $data[]=$row;
+            }
+            return $data;
+        }
+        else
+        {
+            return null;
+        }
+    }
+
 
 
     //update ---------------------------------------------------------------------------
@@ -273,6 +287,18 @@ class Mpost extends CI_Model{
     function get_data_alumni($id){
         $this->db->where('id_alumni',$id);
         $query = $this->db->get($this->table_name_alumni);
+        if($query->num_rows > 0)
+        {
+            return $query->row();
+        }
+        else{
+            return null;
+        }
+    }
+
+    function get_data_prestasi($id){
+        $this->db->where('id_prestasi',$id);
+        $query = $this->db->get($this->table_name_prestasi);
         if($query->num_rows > 0)
         {
             return $query->row();

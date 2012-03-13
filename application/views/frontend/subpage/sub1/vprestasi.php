@@ -14,30 +14,22 @@
             </tr>
             </thead>
             <tbody>
+            <?php $no=1;
+            foreach($prestasi_row as $row)
+            {?>
+
             <tr>
-                <td>1</td>
-                <td> Lomba desain grafis elektro Maret 07</td>
-                <td>Kota</td>
-                <td>Politeknik Negeri Semarang an. Berda Karendrazssxsxsxsxsxsxs Putra</td>
+                <td><?php echo $no; ?></td>
+                <td><?php echo $row->jenis; ?></td>
+                <td><?php echo $row->tingkat; ?></td>
+                <td><?php echo $row->pelaksana; ?></td>
             </tr>
-            <tr>
-                <td>1</td>
-                <td> Lomba desain grafis elektro Maret 07</td>
-                <td>Kota</td>
-                <td>Politeknik Negeri Semarang an. Berda Karendrazssxsxsxsxsxsxs Putra</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td> Lomba desain grafis elektro Maret 07</td>
-                <td>Kota</td>
-                <td>Politeknik Negeri Semarang an. Berda Karendrazssxsxsxsxsxsxs Putra</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td> Lomba desain grafis elektro Maret 07</td>
-                <td>Kota</td>
-                <td>Politeknik Negeri Semarang an. Berda Karendrazssxsxsxsxsxsxs Putra</td>
-            </tr>
+    `
+                <?php
+                $no++;
+            }
+            ?>
+
             </tbody>
         </table>
 
