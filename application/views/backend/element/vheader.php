@@ -26,21 +26,15 @@
 
 
                 <div class="nav-collapse">
-                    <form class="navbar-search pull-left">
-                        <input type="text" class="search-query" placeholder="Search">
-                    </form>
+
 
                     <ul class="nav" style="float: right;">
                         <li class="dropdown">
+
                             <a href="#"
                                class="dropdown-toggle"
                                data-toggle="dropdown">
-                                <?php
-                                    if(isset($welcome))
-                                    {
-                                         echo "$welcome";
-                                    }
-                                ?>
+                                ondoel
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu">

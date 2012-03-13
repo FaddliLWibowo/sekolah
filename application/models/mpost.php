@@ -83,6 +83,7 @@ class Mpost extends CI_Model{
         }
     }
 
+//read data---------------------------------------------------
 
     function read_data(){
         $sql = $this->db->get($this->table_name);
@@ -97,7 +98,36 @@ class Mpost extends CI_Model{
             return null;
         }
     }
+    function read_data_materiajar(){
+        $sql = $this->db->get($this->table_name_materiajar);
+        if($sql->num_rows()>0){
+            foreach($sql->result()as $row){
+                $data[]=$row;
+            }
+            return $data;
+        }
+        else
+        {
+            return null;
+        }
+    }
 
+    function read_data_infosekolah(){
+        $sql = $this->db->get($this->table_name_infosekolah);
+        if($sql->num_rows()>0){
+            foreach($sql->result()as $row){
+                $data[]=$row;
+            }
+            return $data;
+        }
+        else
+        {
+            return null;
+        }
+    }
+
+
+    //update ---------------------------------------------------------------------------
     function update_data($id,$data){
         $this->db->where('id',$id);
         $this->db->update($this->table_name,$data);
@@ -122,9 +152,35 @@ class Mpost extends CI_Model{
         }
     }
 
+    //get field tabel
+
     function get_data($id){
         $this->db->where('id',$id);
         $query = $this->db->get($this->table_name);
+        if($query->num_rows > 0)
+        {
+            return $query->row();
+        }
+        else{
+            return null;
+        }
+    }
+
+    function get_data_materiajar($id){
+        $this->db->where('id_materi',$id);
+        $query = $this->db->get($this->table_name_materiajar);
+        if($query->num_rows > 0)
+        {
+            return $query->row();
+        }
+        else{
+            return null;
+        }
+    }
+
+    function get_data_infosekolah($id){
+        $this->db->where('id_info',$id);
+        $query = $this->db->get($this->table_name_infosekolah);
         if($query->num_rows > 0)
         {
             return $query->row();

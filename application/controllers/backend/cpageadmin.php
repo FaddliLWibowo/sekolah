@@ -85,5 +85,7 @@ class Cpageadmin extends CI_Controller{
         $this->index();
     }
 
+
+
 }
 ?>
