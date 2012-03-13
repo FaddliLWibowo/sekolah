@@ -85,6 +85,19 @@ class Cpageadmin extends CI_Controller{
         $this->index();
     }
 
+    function create_prestasi() //untuk menambah data cd
+    {
+
+        $dataprestasi = array(
+            'jenis'=>$this->input->post('jenis'),
+            'tingkat'=>$this->input->post('tingkat'),
+            'pelaksana'=>$this->input->post('pelaksana')
+
+        );
+        $this->mpost->create_data_prestasi($dataprestasi);
+        $this->index();
+    }
+
 
 
 }

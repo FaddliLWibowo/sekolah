@@ -7,6 +7,7 @@ class Mpost extends CI_Model{
     private $table_name_infosekolah;
     private $table_name_materiajar;
     private $table_name_artikel;
+    private $table_name_prestasi;
 
     public function __construct(){
         parent::__construct();
@@ -16,6 +17,7 @@ class Mpost extends CI_Model{
         $this->table_name_infosekolah='infosekolah';
         $this->table_name_materiajar='materiajar';
         $this->table_name_artikel='artikel';
+        $this->table_name_prestasi = 'prestasi';
     }
 
     function create_data($data){
@@ -74,6 +76,17 @@ class Mpost extends CI_Model{
 
     function create_data_artikel($dataartikel){
         $this->db->insert($this->table_name_artikel,$dataartikel);
+        if($this->db->affected_rows() > 0){
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    function create_data_prestasi($dataprestasi){
+        $this->db->insert($this->table_name_prestasi,$dataprestasi);
         if($this->db->affected_rows() > 0){
             return true;
         }

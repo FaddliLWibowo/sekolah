@@ -71,6 +71,9 @@
                         <li class="">
                             <a data-toggle="tab" href="#artikel">Artikel</a>
                         </li>
+                        <li class="">
+                            <a data-toggle="tab" href="#prestasi">prestasi</a>
+                        </li>
 
 
                     </ul>
@@ -110,6 +113,11 @@
                         <div id="artikel" class="tab-pane fade">
 
                             <?php $this->load->view('backend/sub_post/vartikel'); ?>
+
+                        </div>
+                        <div id="prestasi" class="tab-pane fade">
+
+                            <?php $this->load->view('backend/sub_post/vprestasi'); ?>
 
                         </div>
                     </div>
