@@ -19,7 +19,16 @@
 
         <div class="span8">
             <ol>
-                <li style="width: 596px;word-wrap: break-word;height: auto;">shjcbjsjchsnbjhbcjscsc</li>
+                <?php $no = 1;
+                foreach($silabus_row as $row)
+                {?>
+
+                <li style="width: 596px;word-wrap: break-word;height: auto;"><?php echo $no; ?></li>
+                    <li style="width: 596px;word-wrap: break-word;height: auto;"><?php echo $row->note_silabus; ?></li>
+                    <?php
+                    $no++;
+                }
+                ?>
             </ol>
         </div>
 

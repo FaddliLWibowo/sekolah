@@ -74,6 +74,12 @@
                         <li class="">
                             <a data-toggle="tab" href="#prestasi">prestasi</a>
                         </li>
+                        <li class="">
+                            <a data-toggle="tab" href="#silabus">Silabus</a>
+                        </li>
+                        <li class="">
+                            <a data-toggle="tab" href="#agenda">Agenda</a>
+                        </li>
 
 
                     </ul>
@@ -118,6 +124,16 @@
                         <div id="prestasi" class="tab-pane fade">
 
                             <?php $this->load->view('backend/sub_post/vprestasi'); ?>
+
+                        </div>
+                        <div id="silabus" class="tab-pane fade">
+
+                            <?php $this->load->view('backend/sub_post/vsilabus'); ?>
+
+                        </div>
+                        <div id="agenda" class="tab-pane fade">
+
+                            <?php $this->load->view('backend/sub_post/vagenda'); ?>
 
                         </div>
                     </div>

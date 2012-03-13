@@ -98,6 +98,28 @@ class Cpageadmin extends CI_Controller{
         $this->index();
     }
 
+    function create_silabus() //untuk menambah data cd
+    {
+
+        $datasilabus = array(
+            'note_silabus'=>$this->input->post('note_silabus')
+            );
+        $this->mpost->create_data_silabus($datasilabus);
+        $this->index();
+    }
+
+    function create_agenda() //untuk menambah data cd
+    {
+
+        $dataagenda = array(
+            'tanggal'=>$this->input->post('tanggal'),
+            'acara'=>$this->input->post('acara'),
+            'kegiatan'=>$this->input->post('kegiatan')
+        );
+        $this->mpost->create_data_agenda($dataagenda);
+        $this->index();
+    }
+
 
 
 }

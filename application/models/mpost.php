@@ -8,6 +8,8 @@ class Mpost extends CI_Model{
     private $table_name_materiajar;
     private $table_name_artikel;
     private $table_name_prestasi;
+    private $table_name_silabus;
+    private $table_name_agenda;
 
     public function __construct(){
         parent::__construct();
@@ -18,6 +20,8 @@ class Mpost extends CI_Model{
         $this->table_name_materiajar='materiajar';
         $this->table_name_artikel='artikel';
         $this->table_name_prestasi = 'prestasi';
+        $this->table_name_silabus = 'silabus';
+        $this->table_name_agenda = 'agenda';
     }
 
     function create_data($data){
@@ -87,6 +91,28 @@ class Mpost extends CI_Model{
 
     function create_data_prestasi($dataprestasi){
         $this->db->insert($this->table_name_prestasi,$dataprestasi);
+        if($this->db->affected_rows() > 0){
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    function create_data_silabus($datasilabus){
+        $this->db->insert($this->table_name_silabus,$datasilabus);
+        if($this->db->affected_rows() > 0){
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    function create_data_agenda($dataagenda){
+        $this->db->insert($this->table_name_agenda,$dataagenda);
         if($this->db->affected_rows() > 0){
             return true;
         }
@@ -183,6 +209,34 @@ class Mpost extends CI_Model{
 
     function read_data_prestasi(){
         $sql = $this->db->get($this->table_name_prestasi);
+        if($sql->num_rows()>0){
+            foreach($sql->result()as $row){
+                $data[]=$row;
+            }
+            return $data;
+        }
+        else
+        {
+            return null;
+        }
+    }
+
+    function read_data_silabus(){
+        $sql = $this->db->get($this->table_name_silabus);
+        if($sql->num_rows()>0){
+            foreach($sql->result()as $row){
+                $data[]=$row;
+            }
+            return $data;
+        }
+        else
+        {
+            return null;
+        }
+    }
+
+    function read_data_agenda(){
+        $sql = $this->db->get($this->table_name_agenda);
         if($sql->num_rows()>0){
             foreach($sql->result()as $row){
                 $data[]=$row;
@@ -299,6 +353,18 @@ class Mpost extends CI_Model{
     function get_data_prestasi($id){
         $this->db->where('id_prestasi',$id);
         $query = $this->db->get($this->table_name_prestasi);
+        if($query->num_rows > 0)
+        {
+            return $query->row();
+        }
+        else{
+            return null;
+        }
+    }
+
+    function get_data_agenda($id){
+        $this->db->where('id_agenda',$id);
+        $query = $this->db->get($this->table_name_agenda);
         if($query->num_rows > 0)
         {
             return $query->row();

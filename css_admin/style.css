@@ -3,6 +3,11 @@
 
 @import "bootstrap-responsive.css";
 @import "bootstrap.css";
+
+@import "/css/jquery.ui.all.css";
+@import "/css/jquery.ui.base.css";
+@import "/css/jquery.ui.theme.css";
+
 body
 {
     background: -webkit-linear-gradient(top,white,#808080);

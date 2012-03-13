@@ -20,6 +20,12 @@ class Csub extends CI_Controller{
         $data['prestasi']='';
         $data['prestasi_row']=$this->mpost->read_data_prestasi();
 
+        $data['silabus']='';
+        $data['silabus_row']=$this->mpost->read_data_silabus();
+
+        $data['agenda']='';
+        $data['agenda_row']=$this->mpost->read_data_agenda();
+
         $menu = $_GET['menu'];
         if($menu=="mot")
         {
@@ -136,7 +142,7 @@ class Csub extends CI_Controller{
             $this->load->view('frontend/subpage/sub2/vkalender');
         }
         else if($menu=="sil"){
-            $this->load->view('frontend/subpage/sub2/vsilabus');
+            $this->load->view('frontend/subpage/sub2/vsilabus',$data);
         }
 
         else if($menu=="dirS"){
@@ -157,7 +163,7 @@ class Csub extends CI_Controller{
         }
 
         else if($menu=="age"){
-            $this->load->view('frontend/subpage/sub5/vagenda');
+            $this->load->view('frontend/subpage/sub5/vagenda',$data);
         }
         else if($menu=="art"){
             $this->load->view('frontend/subpage/sub5/vartikel');

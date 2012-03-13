@@ -53,24 +53,23 @@
                 </tr>
                 </thead>
                 <tbody>
+
+                <?php $no=1;
+                foreach($agenda_row as $row)
+                {?>
                 <tr>
-                    <td>1</td>
-                    <td>12/02/2012</td>
-                    <td>hut RI</td>
-                    <td>upacara</td>
+
+                    <td><?php echo $no; ?></td>
+                    <td><?php echo $row->tanggal; ?></td>
+                    <td><?php echo $row->acara; ?></td>
+                    <td><?php echo $row->kegiatan; ?></td>
+
                 </tr>
-                <tr>
-                    <td>1</td>
-                    <td>12/02/2012</td>
-                    <td>hut RI</td>
-                    <td>upacara</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>12/02/2012</td>
-                    <td>hut RI</td>
-                    <td>upacara</td>
-                </tr>
+                    <?php
+                    $no++;
+                }
+                ?>
+
                 </tbody>
             </table>
         </div>
