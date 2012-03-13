@@ -4,8 +4,13 @@ class Csub extends CI_Controller{
 
     function __construct(){
         parent::__construct();
+        $this->load->model('mpost');
     }
     function index(){
+
+        $data['guru']='';
+        $data['guru_row']=$this->mpost->read_data_guru();
+
         $menu = $_GET['menu'];
         if($menu=="mot")
         {
@@ -113,7 +118,7 @@ class Csub extends CI_Controller{
         }
 
         else if($menu=="dirG"){
-            $this->load->view('frontend/subpage/sub2/vdirguru');
+            $this->load->view('frontend/subpage/sub2/vdirguru',$data);
         }
         else if($menu=="aja"){
             $this->load->view('frontend/subpage/sub2/vajar');
@@ -166,5 +171,16 @@ class Csub extends CI_Controller{
         $this->load->view('frontend/element/vfooter');
 
     }
+
+    function edit_guru() //untuk menampilkan form edit data
+    {
+        $id = $this->security->xss_clean($this->uri->segment(3));
+        $result = $this->mpost->get_data_guru($id);
+        if ($result == null) redirect($this->index());
+        else $data['guru'] = $result;
+        $data['guru_row'] = $this->mpost->read_data_guru();
+
+    }
+
 }
 ?>

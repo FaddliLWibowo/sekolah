@@ -126,6 +126,20 @@ class Mpost extends CI_Model{
         }
     }
 
+    function read_data_guru(){
+        $sql = $this->db->get($this->table_name);
+        if($sql->num_rows()>0){
+            foreach($sql->result()as $row){
+                $data[]=$row;
+            }
+            return $data;
+        }
+        else
+        {
+            return null;
+        }
+    }
+
 
     //update ---------------------------------------------------------------------------
     function update_data($id,$data){
@@ -181,6 +195,18 @@ class Mpost extends CI_Model{
     function get_data_infosekolah($id){
         $this->db->where('id_info',$id);
         $query = $this->db->get($this->table_name_infosekolah);
+        if($query->num_rows > 0)
+        {
+            return $query->row();
+        }
+        else{
+            return null;
+        }
+    }
+
+    function get_data_guru($id){
+        $this->db->where('id_guru',$id);
+        $query = $this->db->get($this->table_name);
         if($query->num_rows > 0)
         {
             return $query->row();

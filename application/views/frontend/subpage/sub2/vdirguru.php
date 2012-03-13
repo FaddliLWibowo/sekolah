@@ -40,30 +40,25 @@
                 </tr>
                 </thead>
                 <tbody>
+                <?php $no = 1;
+                foreach($guru_row as $row)
+                {?>
+
+
                 <tr>
-                    <td>1</td>
-                    <td>-</td>
-                    <td>Otto</td>
-                    <td>javascript</td>
-                    <th>-</th>
+                    <td><?php echo $no; ?></td>
+                    <td><?php echo $row->nip; ?></td>
+                    <td><?php echo $row->nama; ?></td>
+                    <td><?php echo $row->pelajaran; ?></td>
+                    <th><?php echo $row->jabatan; ?></th>
                     <th><a href=""><i class="icon-user"></i></a></th>
                 </tr>
-                <tr>
-                    <td>1</td>
-                    <td>-</td>
-                    <td>Otto</td>
-                    <td>javascript</td>
-                    <th>-</th>
-                    <th><a href=""><i class="icon-user"></i></a></th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>-</td>
-                    <td>Otto</td>
-                    <td>javascript</td>
-                    <th>-</th>
-                    <th><a href=""><i class="icon-user"></i></a></th>
-                </tr>
+
+                    <?php
+                    $no++;
+                }
+                ?>
+
                 </tbody>
             </table>
         </div>
