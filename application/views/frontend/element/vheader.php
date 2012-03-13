@@ -10,6 +10,7 @@
         <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.ui.datepicker.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.ui.widget.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>js/jstyle.js"></script>
+
     </head>
 
     <body>

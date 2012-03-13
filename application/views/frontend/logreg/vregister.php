@@ -7,7 +7,7 @@
         $data = array(
             'id'=>'register'
         );
-        echo form_open(base_url().'index.php/cpanellogin/register',$data);
+        echo form_open(base_url().'index.php/cregister/register',$data);
         ?>
 
         <table>
@@ -24,6 +24,12 @@
                     echo form_input($data);
                     ?>
                 </td>
+                <td>
+
+                    <?php echo form_error('firstname'); ?>
+
+
+                </td>
             </tr>
             <tr>
                 <td>
@@ -38,6 +44,11 @@
                     echo form_input($data);
                     ?>
                 </td>
+                <td>
+                     <?php echo form_error('lastname'); ?>
+
+                </td>
+
             </tr>
             <tr>
                 <td>
@@ -52,6 +63,11 @@
                     echo form_input($data);
                     ?>
                 </td>
+                <td>
+                    <?php echo form_error('username'); ?>
+
+                </td>
+
             </tr>
             <tr>
                 <td>
@@ -66,6 +82,11 @@
                     echo form_password($data);
                     ?>
                 </td>
+                <td>
+                     <?php echo form_error('password'); ?>
+
+                </td>
+
             </tr>
             <tr>
                 <td>
@@ -80,6 +101,11 @@
                     echo form_password($data);
                     ?>
                 </td>
+                <td>
+                     <?php echo form_error('passconf'); ?>
+
+                </td>
+
             </tr>
             <tr>
                 <td>
@@ -94,6 +120,15 @@
                     echo form_input($data);
                     ?>
                 </td>
+                <td>
+
+                        <?php
+
+                        echo form_error('email');
+                        ?>
+
+                </td>
+
             </tr>
             <tr>
                 <td colspan="2" align="center">
