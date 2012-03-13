@@ -10,6 +10,7 @@ class Mpost extends CI_Model{
     private $table_name_prestasi;
     private $table_name_silabus;
     private $table_name_agenda;
+    private $table_name_posting;
 
     public function __construct(){
         parent::__construct();
@@ -22,6 +23,7 @@ class Mpost extends CI_Model{
         $this->table_name_prestasi = 'prestasi';
         $this->table_name_silabus = 'silabus';
         $this->table_name_agenda = 'agenda';
+        $this->table_name_posting = 'posting';
     }
 
     function create_data($data){
@@ -251,6 +253,20 @@ class Mpost extends CI_Model{
 
     function read_data_artikel(){
         $sql = $this->db->get($this->table_name_artikel);
+        if($sql->num_rows()>0){
+            foreach($sql->result()as $row){
+                $data[]=$row;
+            }
+            return $data;
+        }
+        else
+        {
+            return null;
+        }
+    }
+
+    function read_data_posting(){
+        $sql = $this->db->get($this->table_name_posting);
         if($sql->num_rows()>0){
             foreach($sql->result()as $row){
                 $data[]=$row;
