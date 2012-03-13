@@ -69,6 +69,20 @@
             </tr>
             <tr>
                 <td>
+                    <?php echo form_label('Konfirmasi Password','passconf'); ?>
+                </td>
+                <td>
+                    &nbsp;&nbsp;
+                    <?php
+                    $data = array(
+                        'name'=>'passconf'
+                    );
+                    echo form_password($data);
+                    ?>
+                </td>
+            </tr>
+            <tr>
+                <td>
                     <?php echo form_label('Email','email'); ?>
                 </td>
                 <td>
@@ -85,7 +99,8 @@
                 <td colspan="2" align="center">
                     <?php
                     $data = array(
-                        'value'=>'submit'
+                        'value'=>'submit',
+                        'class'=>'btn'
                     );
                     echo form_submit($data);
                     ?>

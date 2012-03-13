@@ -12,6 +12,20 @@ class Cpageadmin extends CI_Controller{
         $this->load->view('backend/element/vfooter');
     }
 
+    function create_posting() //untuk menambah data cd
+    {
+        $dataposting = array(
+            'title_posting' => $this->input->post('title_posting'),
+            'note_posting' => $this->input->post('note_posting')
+
+
+        );
+
+        $this->mpost->create_data_posting($dataposting);
+        $this->index();
+    }
+
+
     function create() //untuk menambah data cd
     {
         $data = array(

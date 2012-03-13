@@ -3,11 +3,11 @@
         <?php $no = 1;
             foreach($posting_row as $row)
             {?>
-                <h2>
-                    <?php echo $row->title; ?>
-                </h2>
-                <p>
-                    <?php echo $row->news; ?>
+                <h3>
+                    <?php echo $row->title_posting; ?>
+                </h3>
+                <p style="text-indent: 20px">
+                    <?php echo $row->note_posting; ?>
                 </p>
                 <?php
                $no++;

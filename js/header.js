@@ -80,6 +80,7 @@ $(function(){
             e.hover(
                 function(){
                     $(this).show();
+
                 },
                 function(){
                     $(this).hide();

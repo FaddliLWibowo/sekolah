@@ -22,3 +22,10 @@ body
     text-align: left;
     height: 550px
 }
+
+a
+{
+    text-decoration: none;
+    color: black;
+    outline: none;
+}

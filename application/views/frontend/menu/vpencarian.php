@@ -14,9 +14,11 @@
                         ?>
                     </td>
                     <td>
+                        &nbsp;
                         <?php
                         $data = array(
-                            'value'=>'Cari'
+                            'value'=>'Cari',
+                            'class'=>'btn-primary'
                         );
                         echo form_submit($data);
                         ?>

@@ -23,11 +23,22 @@ class Mpost extends CI_Model{
         $this->table_name_prestasi = 'prestasi';
         $this->table_name_silabus = 'silabus';
         $this->table_name_agenda = 'agenda';
-        $this->table_name_posting = 'posting';
+        $this->table_name_posting = 'home';
     }
 
     function create_data($data){
         $this->db->insert($this->table_name,$data);
+        if($this->db->affected_rows() > 0){
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    function create_data_posting($dataposting){
+        $this->db->insert($this->table_name_posting,$dataposting);
         if($this->db->affected_rows() > 0){
             return true;
         }
@@ -139,6 +150,21 @@ class Mpost extends CI_Model{
             return null;
         }
     }
+
+    function read_data_posting(){
+        $sql = $this->db->get($this->table_name_posting);
+        if($sql->num_rows()>0){
+            foreach($sql->result()as $row){
+                $data[]=$row;
+            }
+            return $data;
+        }
+        else
+        {
+            return null;
+        }
+    }
+
     function read_data_materiajar(){
         $sql = $this->db->get($this->table_name_materiajar);
         if($sql->num_rows()>0){
@@ -265,19 +291,7 @@ class Mpost extends CI_Model{
         }
     }
 
-    function read_data_posting(){
-        $sql = $this->db->get($this->table_name_posting);
-        if($sql->num_rows()>0){
-            foreach($sql->result()as $row){
-                $data[]=$row;
-            }
-            return $data;
-        }
-        else
-        {
-            return null;
-        }
-    }
+
 
 
 

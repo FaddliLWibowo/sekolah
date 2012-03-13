@@ -54,7 +54,7 @@
                 </td>
                 <td align="center">
                     &nbsp;&nbsp;
-                    <a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=reg"><button style="cursor: pointer;margin-right: -10px" class="btn-primary">Register</button></a>
+                    <a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=reg"><button style="cursor: pointer;margin-right: -10px" class="btn">Register</button></a>
 
                 </td>
             </tr>

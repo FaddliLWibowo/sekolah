@@ -2,13 +2,13 @@
 $data = array(
     'class'=>'well'
 );
-echo form_open('',$data);
+echo form_open(base_url().'index.php/backend/cpageadmin/create_posting',$data);
 ?>
 <table>
     <tr>
         <td>
             <?php
-            echo form_label('Title Post','title');
+            echo form_label('Title Posting','title_posting');
             ?>
         </td>
     </tr>
@@ -17,6 +17,7 @@ echo form_open('',$data);
             <?php
             $data = array(
                 'class'=>'span3',
+                'name'=>'title_posting',
                 'style'=>'height: 25px'
             );
             echo form_input($data);
@@ -27,13 +28,13 @@ echo form_open('',$data);
         <td>
             <?php
 
-            echo form_label('Note','note');
+            echo form_label('Note Posting','note_posting');
             ?>
         </td>
     </tr>
     <tr>
         <td>
-            <textarea rows="10" cols="40" style="width: 1057px"></textarea>
+            <textarea rows="10" cols="40" style="width: 1057px" name="note_posting"></textarea>
         </td>
     </tr>
     <tr>
@@ -51,7 +52,7 @@ echo form_open('',$data);
                 'class'=>'btn',
                 'value'=>'cancel'
             );
-            echo form_submit($data);
+            echo form_reset($data);
             ?>
 
         </td>

@@ -1,6 +1,6 @@
 .header
 {
-    border: 1px solid black;
+
     height: auto;
     padding: 5px;
     margin-bottom: 3px;
@@ -21,9 +21,9 @@
 {
     list-style: none;
     display: inline-block;
-    border-left: 1px solid black;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
     padding: 5px;
     width: 75px;
     border-top-left-radius: 5px;
@@ -37,8 +37,9 @@
 }
 .img_header
 {
-    border: 1px solid black;
+    border: 1px solid grey;
     height: 150px;
+    background-image: url("../img/header.jpg");
 }
 
 .panel_header ul#menu_list_hide
@@ -56,10 +57,14 @@
 .panel_header ul#menu_list_hide li table
 {
     position: absolute;
-    width: 131px;
-    border: 1px solid #000000;
+    width: 100px;
+    border-radius: 3px;
     display: none;
-    text-align: center
+    text-align: center;
+    background: -webkit-linear-gradient(top,white,grey);
+    background: -moz-linear-gradient(top,white,grey);
+    background: -ms-linear-gradient(top,white,grey);
+    background: -o-linear-gradient(top,white,grey);
 }
 .panel_header ul#menu_list_hide li table tr
 {
