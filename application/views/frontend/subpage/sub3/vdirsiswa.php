@@ -43,27 +43,21 @@
                 </tr>
                 </thead>
                 <tbody>
+                <?php $no = 1;
+                foreach($siswa_row as $row)
+                { ?>
+
                 <tr>
-                    <td>1</td>
-                    <td>-</td>
-                    <td>Otto</td>
-                    <td>3D</td>
+                    <td><?php echo $no; ?></td>
+                    <td><?php echo $row->nis; ?></td>
+                    <td><?php echo $row->nama; ?></td>
+                    <td><?php echo $row->kelas; ?></td>
                     <td><a href=""><i class="icon-user"></i></a></td>
                 </tr>
-                <tr>
-                    <td>1</td>
-                    <td>-</td>
-                    <td>Otto</td>
-                    <td>3D</td>
-                    <td><a href=""><i class="icon-user"></i></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>-</td>
-                    <td>Otto</td>
-                    <td>3D</td>
-                    <td><a href=""><i class="icon-user"></i></a></td>
-                </tr>
+                    <?php
+                    $no++;
+                }
+                ?>
                 </tbody>
             </table>
         </div>

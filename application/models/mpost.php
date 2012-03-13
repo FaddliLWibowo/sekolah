@@ -140,6 +140,21 @@ class Mpost extends CI_Model{
         }
     }
 
+    function read_data_siswa(){
+        $sql = $this->db->get($this->table_name_siswa);
+        if($sql->num_rows()>0){
+            foreach($sql->result()as $row){
+                $data[]=$row;
+            }
+            return $data;
+        }
+        else
+        {
+            return null;
+        }
+    }
+
+
 
     //update ---------------------------------------------------------------------------
     function update_data($id,$data){
@@ -207,6 +222,18 @@ class Mpost extends CI_Model{
     function get_data_guru($id){
         $this->db->where('id_guru',$id);
         $query = $this->db->get($this->table_name);
+        if($query->num_rows > 0)
+        {
+            return $query->row();
+        }
+        else{
+            return null;
+        }
+    }
+
+    function get_data_siswa($id){
+        $this->db->where('id_siswa',$id);
+        $query = $this->db->get($this->table_name_siswa);
         if($query->num_rows > 0)
         {
             return $query->row();
