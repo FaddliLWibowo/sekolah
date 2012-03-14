@@ -23,13 +23,13 @@
                                     <b class="caret"></b>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list">Home</a></li>
-                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list">Input Guru</a></li>
-                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list">Input Siswa</a></li>
-                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list">Input Alumni</a></li>
-                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list">Info Sekolah</a></li>
-                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list">Materi Ajar</a></li>
-                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list">Artikel</a></li>
+                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list?menu=hom">Home</a></li>
+                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list?menu=gur">Input Guru</a></li>
+                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list?menu=sis">Input Siswa</a></li>
+                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list?menu=alu">Input Alumni</a></li>
+                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list?menu=inf">Info Sekolah</a></li>
+                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list?menu=mat">Materi Ajar</a></li>
+                                    <li><a href="<?php echo base_url(); ?>index.php/backend/cpageadmin_list?menu=art">Artikel</a></li>
                                 </ul>
                             </li>
                         </ul>

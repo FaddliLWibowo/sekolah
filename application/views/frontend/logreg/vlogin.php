@@ -2,7 +2,7 @@
     <div class="panel_menu_header_left" align="center">
 
 
-    <?php echo form_open(); ?>
+    <?php echo form_open(base_url().'index.php/clogin/proses_login'); ?>
         <table>
             <tr>
                 <td>
@@ -44,7 +44,7 @@
                     &nbsp;&nbsp;
                     <?php
                         $data = array(
-                            'id'=>'login',
+
                             'value'=>'Login',
                             'style'=>'cursor:pointer;margin-right: -50px',
                             'class'=>'btn'

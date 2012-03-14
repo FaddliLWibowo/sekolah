@@ -5,10 +5,30 @@ class Cpageadmin extends CI_Controller{
         $this->load->model('mpost');
     }
     function index(){
+//        $data['alumni'] = '';
+//        $data['alumni_row'] = $this->mpost->read_data_alumni();
+//
+//        $data['artikel'] = '';
+//        $data['artikel_row'] = $this->mpost->read_data_artikel();
+//
+//        $data['guru'] = '';
+//        $data['guru_row'] = $this->mpost->read_data();
+//
+//        $data['home'] = '';
+//        $data['home_row'] = $this->mpost->read_data_posting();
+//
+//        $data['infosekolah'] = '';
+//        $data['infosekolah_row'] = $this->mpost->read_data_infosekolah();
+//
+//        $data['materiajar'] = '';
+//        $data['materiajar_row'] = $this->mpost->read_data_materiajar();
+//
+//        $data['siswa'] = '';
+//        $data['siswa_row'] = $this->mpost->read_data_siswa();
 
         $data['title']="Panel Admin";
         $this->load->view('backend/element/vheader',$data);
-        $this->load->view('backend/element/vcontent');
+        $this->load->view('backend/element/vcontent',$data);
         $this->load->view('backend/element/vfooter');
     }
 
