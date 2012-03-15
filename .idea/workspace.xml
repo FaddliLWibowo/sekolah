@@ -21,7 +21,71 @@
     <favorites_list name="sekolah" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="cpage.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/cpage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="36" selection-start="108" selection-end="136" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vheader.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vheader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="0" selection-start="1720" selection-end="1720" vertical-scroll-proportion="-10.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calumni.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/page/calumni.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="36" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cfitur.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/page/cfitur.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="36" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cguru.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/page/cguru.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="36" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cprofil.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/page/cprofil.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="36" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="csiswa.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/page/csiswa.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="36" selection-start="137" selection-end="137" vertical-scroll-proportion="0.10909091">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -41,17 +105,17 @@
         <option value="$PROJECT_DIR$/application/models/mlogreg.php" />
         <option value="$PROJECT_DIR$/application/controllers/cpanellogin.php" />
         <option value="$PROJECT_DIR$/application/views/backend/vpanellogin.php" />
-        <option value="$PROJECT_DIR$/application/controllers/page/csiswa.php" />
-        <option value="$PROJECT_DIR$/application/controllers/page/cprofil.php" />
-        <option value="$PROJECT_DIR$/application/controllers/page/cfitur.php" />
-        <option value="$PROJECT_DIR$/application/controllers/page/cguru.php" />
-        <option value="$PROJECT_DIR$/application/controllers/page/calumni.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/page/valumni.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/page/velearning.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/page/vfitur.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/page/vguru.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/page/vprofil.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/page/vsiswa.php" />
+        <option value="$PROJECT_DIR$/application/controllers/page/calumni.php" />
+        <option value="$PROJECT_DIR$/application/controllers/page/cfitur.php" />
+        <option value="$PROJECT_DIR$/application/controllers/page/cguru.php" />
+        <option value="$PROJECT_DIR$/application/controllers/page/cprofil.php" />
+        <option value="$PROJECT_DIR$/application/controllers/page/csiswa.php" />
       </list>
     </option>
   </component>
@@ -247,6 +311,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="subpage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="page" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -362,13 +448,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="720" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27279636" sideWeight="0.21875" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25227964" sideWeight="0.6701389" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25227964" sideWeight="0.6701389" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -436,65 +522,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/backend/vpanellogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="47" selection-start="337" selection-end="337" vertical-scroll-proportion="0.256654" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/cpanellogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.91818184" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/page/cfitur.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="47" selection-start="293" selection-end="293" vertical-scroll-proportion="0.21818182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vheader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="40" selection-start="1469" selection-end="1469" vertical-scroll-proportion="-8.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/page/cprofil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="48" selection-start="296" selection-end="296" vertical-scroll-proportion="0.21818182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/page/csiswa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="47" selection-start="293" selection-end="293" vertical-scroll-proportion="0.21818182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/page/cguru.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="46" selection-start="290" selection-end="290" vertical-scroll-proportion="0.21818182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/page/calumni.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="42" selection-start="290" selection-end="290" vertical-scroll-proportion="0.21818182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vcontent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="106" selection-end="106" vertical-scroll-proportion="0.05940594">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vcontentcenter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="28" selection-start="313" selection-end="313" vertical-scroll-proportion="0.256654">
@@ -540,6 +567,69 @@
     <entry file="file://$PROJECT_DIR$/application/views/frontend/page/vsiswa.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="65" selection-start="283" selection-end="283" vertical-scroll-proportion="0.256654">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/backend/cpageadmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/subpage/csub.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.6545455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/cpage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="36" selection-start="108" selection-end="136" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vheader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1720" selection-end="1720" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/page/calumni.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="36" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/page/cfitur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="36" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/page/cguru.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="36" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/page/cprofil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="36" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/page/csiswa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="36" selection-start="137" selection-end="137" vertical-scroll-proportion="0.10909091">
           <folding />
         </state>
       </provider>
