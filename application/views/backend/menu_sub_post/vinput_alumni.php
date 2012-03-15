@@ -48,7 +48,11 @@
                                                 <td><?php echo $row->nama_alumni; ?></td>
                                                 <td><?php echo $row->angkatan; ?></td>
                                                 <td><?php echo $row->email; ?></td>
-
+                                                <td>
+                                                    <i class="icon-minus-sign"></i>
+                                                    <i class="icon-plus-sign"></i>
+                                                    <i class="icon-edit"></i>
+                                                </td>
                                             </tr>
 
                                                 <?php

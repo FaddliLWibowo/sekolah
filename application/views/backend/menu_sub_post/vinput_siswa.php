@@ -35,7 +35,7 @@
                                                 <th>NIS</th>
                                                 <th>Nama</th>
                                                 <th>Kelas</th>
-                                                                                            </tr>
+                                            </tr>
                                             </thead>
                                             <tbody>
 
@@ -44,11 +44,15 @@
                                             {?>
 
                                             <tr>
-                                                <td><?php $no; ?></td>
-                                                <td><?php $row->nis; ?></td>
-                                                <td><?php $row->nama; ?></td>
-                                                <td><?php $row->kelas; ?></td>
-
+                                                <td><?php echo $no; ?></td>
+                                                <td><?php echo $row->nis; ?></td>
+                                                <td><?php echo $row->nama; ?></td>
+                                                <td><?php echo $row->kelas; ?></td>
+                                                <td>
+                                                    <i class="icon-minus-sign"></i>
+                                                    <i class="icon-plus-sign"></i>
+                                                    <i class="icon-edit"></i>
+                                                </td>
                                             </tr>
                                                 <?php
                                                 $no++;

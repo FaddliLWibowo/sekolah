@@ -48,6 +48,11 @@
                                                 <td><?php echo $no; ?></td>
                                                 <td><?php echo $row->title_artikel; ?></td>
                                                 <td><?php echo $row->note_artikel; ?></td>
+                                                <td>
+                                                    <i class="icon-minus-sign"></i>
+                                                    <i class="icon-plus-sign"></i>
+                                                    <i class="icon-edit"></i>
+                                                </td>
                                             </tr>
 
                                                 <?php

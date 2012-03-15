@@ -51,6 +51,11 @@
                                                 <td><?php echo $row->nama; ?></td>
                                                 <td><?php echo $row->pelajaran; ?></td>
                                                 <th><?php echo $row->jabatan; ?></th>
+                                                <td>
+                                                    <i class="icon-minus-sign"></i>
+                                                    <i class="icon-plus-sign"></i>
+                                                    <i class="icon-edit"></i>
+                                                </td>
 
                                             </tr>
 
