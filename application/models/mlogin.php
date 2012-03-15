@@ -1,37 +1,37 @@
 <?php
 class Mlogin extends CI_Model{
+
+    private $table = 'member';
+
     function __construct(){
         parent::__construct();
     }
 
-    function login($user='',$pass=''){
-        $this->db->select();
-        $this->db->where(
-            array(
-                'username'=>$user,
-                'password'=>$pass
-            )
-        );
-        $query = $this->db->get('admin');
-        if($query->num_rows()==1)
+    function login($username,$password){
+        $data = $this->db->where(array('username'=>$username,'password'=>md5($password)))->get($this->table);
+
+        if($data->num_rows > 0)
         {
-            return TRUE;
+            $user = $data->row();
+
+            $session = array(
+                'logged_in'=>1,
+                'username'=>$user->username,
+//                'password'=>$user->password
+            );
+
+            $this->session->set_userdata($session);
+            return true;
         }
-        else{
-            return FALSE;
+        else
+        {
+            $this->session->set_userdata('notification','Username dan Password tidak cocok');
+            return false;
         }
     }
-//
-//    function login($user='',$pass='') {
-//        $this->db->select();
-//        $this->db->where(array('username'=>$user,'password'=>$pass));
-//
-//        $query = $this->db->get('users');
-//        if ($query->num_rows() == 1) {
-//            return TRUE;
-//        } else {
-//            return FALSE;
-//        }
-//    }
+
+    function logout(){
+        $this->session->sess_destroy();
+    }
 }
 ?>

@@ -3,6 +3,7 @@ class Cpageadmin extends CI_Controller{
     function __construct(){
         parent::__construct();
         $this->load->model('mpost');
+        $this->load->model('mlogin');
     }
     function index(){
 //        $data['alumni'] = '';
@@ -25,6 +26,7 @@ class Cpageadmin extends CI_Controller{
 //
 //        $data['siswa'] = '';
 //        $data['siswa_row'] = $this->mpost->read_data_siswa();
+
 
         $data['title']="Panel Admin";
         $this->load->view('backend/element/vheader',$data);

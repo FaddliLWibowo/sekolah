@@ -14,6 +14,9 @@ class Cguru extends CI_Controller{
         $data['posting']='';
         $data['posting_row']=$this->mpost->read_data_posting();
 
+        $data['guru']='';
+        $data['guru_row']=$this->mpost->read_data_guru();
+
         $data['title']="Guru SMA NEGERI ABUNG TINGGI";
         $this->load->view('frontend/element/vheader',$data);
         $this->load->view('frontend/page/vguru',$data);

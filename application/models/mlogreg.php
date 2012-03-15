@@ -19,6 +19,8 @@ class Mlogreg extends CI_Model{
         }
     }
 
+
+
     function get_data_login($query){
         $this->db->where($query);
         $q = $this->db->get($this->table_name_register);

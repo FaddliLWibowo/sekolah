@@ -15,6 +15,10 @@ class Csiswa extends CI_Controller{
         $data['posting']='';
         $data['posting_row']=$this->mpost->read_data_posting();
 
+
+        $data['siswa']='';
+        $data['siswa_row']=$this->mpost->read_data_siswa();
+
         $data['title']="Siswa SMA NEGERI ABUNG TINGGI";
         $this->load->view('frontend/element/vheader',$data);
         $this->load->view('frontend/page/vsiswa',$data);

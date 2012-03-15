@@ -10,7 +10,7 @@
                 <?php echo form_error('password'); ?>
                 <?php
 
-                echo form_open(  base_url().'index.php/cpanellogin/cek');
+                echo form_open(  base_url().'index.php/cpanellogin/login');
                 ?>
                     <table>
                         <tr>
