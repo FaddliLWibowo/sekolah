@@ -51,7 +51,7 @@
                                                 <td><?php echo $row->note_info; ?></td>
                                                 <td>
                                                     <i class="icon-minus-sign"></i>
-                                                    <i class="icon-plus-sign"></i>
+
                                                     <i class="icon-edit"></i>
                                                 </td>
                                             </tr>

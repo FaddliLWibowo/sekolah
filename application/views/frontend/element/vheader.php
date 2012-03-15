@@ -10,6 +10,7 @@
         <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.ui.datepicker.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.ui.widget.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>js/jstyle.js"></script>
+<!--        <script type="text/javascript" src="--><?php //echo base_url(); ?><!--js/bootstrap.js"></script>-->
 
     </head>
 
@@ -25,7 +26,33 @@
                     <li><a href="<?php echo base_url(); ?>index.php/page/calumni">Alumni</a></li>
                     <li><a href="<?php echo base_url(); ?>index.php/page/cfitur">Fitur</a></li>
 
+
+
                 </ul>
+
+<!--                <ul class="nav pills">-->
+<!--                    <li class="active"><a href="#">Regular link</a></li>-->
+<!--                    <li class="dropdown" id="menu1">-->
+<!--                        <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">-->
+<!--                            Dropdown-->
+<!--                            <b class="caret"></b>-->
+<!--                        </a>-->
+<!--                        <ul class="dropdown-menu">-->
+<!--                            <li><a href="#">Action</a></li>-->
+<!--                            <li><a href="#">Another action</a></li>-->
+<!--                            <li><a href="#">Something else here</a></li>-->
+<!--                            <li class="divider"></li>-->
+<!--                            <li><a href="#">Separated link</a></li>-->
+<!--                        </ul>-->
+<!--                    </li>-->
+<!--                    ...-->
+<!--                </ul>-->
+<!--                <script type="text/javascript">-->
+<!--                    $(function(){-->
+<!--                        $('.dropdown-toggle').dropdown();-->
+<!--                    });-->
+<!--                </script>-->
+
                 <ul id="menu_list_hide">
 
                     <li>

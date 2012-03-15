@@ -17,6 +17,7 @@
                     <ul id="tab" class="nav nav-tabs">
                         <li class="active">
                             <a data-toggle="tab" href="#home">List Siswa</a>
+
                         </li>
 
 
@@ -48,11 +49,9 @@
                                                 <td><?php echo $row->nis; ?></td>
                                                 <td><?php echo $row->nama; ?></td>
                                                 <td><?php echo $row->kelas; ?></td>
-                                                <td>
-                                                    <i class="icon-minus-sign"></i>
-                                                    <i class="icon-plus-sign"></i>
-                                                    <i class="icon-edit"></i>
-                                                </td>
+                                                <td><a href=""><i class="icon-minus-sign"></i>
+                                                    <a href=""><i class="icon-edit"></i></a></td>
+
                                             </tr>
                                                 <?php
                                                 $no++;

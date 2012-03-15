@@ -47,7 +47,7 @@
                                         <td><?php echo $row->note_posting; ?></td>
                                         <td>
                                             <i class="icon-minus-sign"></i>
-                                            <i class="icon-plus-sign"></i>
+
                                             <i class="icon-edit"></i>
                                         </td>
                                     </tr>
