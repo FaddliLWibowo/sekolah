@@ -6,7 +6,7 @@ class Csiswa extends CI_Controller{
     function index(){
         $data['title']="Siswa SMA NEGERI ABUNG TINGGI";
         $this->load->view('frontend/element/vheader',$data);
-        $this->load->view('frontend/element/vcontent');
+        $this->load->view('frontend/page/vsiswa');
         $this->load->view('frontend/element/vfooter');
     }
 }

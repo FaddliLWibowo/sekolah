@@ -6,7 +6,7 @@ class Cguru extends CI_Controller{
     function index(){
         $data['title']="Guru SMA NEGERI ABUNG TINGGI";
         $this->load->view('frontend/element/vheader',$data);
-        $this->load->view('frontend/element/vcontent');
+        $this->load->view('frontend/page/vguru');
         $this->load->view('frontend/element/vfooter');
     }
 }

@@ -6,7 +6,7 @@ class Cfitur extends CI_Controller{
     function index(){
         $data['title']="fitur SMA NEGERI ABUNG TINGGI";
         $this->load->view('frontend/element/vheader',$data);
-        $this->load->view('frontend/element/vcontent');
+        $this->load->view('frontend/page/vfitur');
         $this->load->view('frontend/element/vfooter');
     }
 }

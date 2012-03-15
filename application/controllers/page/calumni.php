@@ -6,7 +6,7 @@ class Calumni extends CI_Controller{
     function index(){
         $data['title']="Alumni SMA NEGERI ABUNG TINGGI";
         $this->load->view('frontend/element/vheader',$data);
-        $this->load->view('frontend/element/vcontent');
+        $this->load->view('frontend/page/valumni');
         $this->load->view('frontend/element/vfooter');
     }
 }
