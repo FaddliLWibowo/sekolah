@@ -9,9 +9,9 @@
 
 
         <ul>
-            <li><?php echo $no; ?></li>
-            <li><?php echo $row->title_info; ?></li>
-            <li><?php echo $row->note_info; ?></li>
+
+            <li><a href="<?php echo base_url(); ?>index.php/readmore/cread_info"><?php echo $row->title_info; ?></a></li>
+            
         </ul>
 
             <?php
