@@ -17,5 +17,5 @@
                $no++;
             }
         ?>
-    <div class="ajaxurl"></div>
+<!--    <div>--><?php //echo $this->pagination->create_links(); ?><!--</div>-->
 </div>

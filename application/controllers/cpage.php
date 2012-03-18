@@ -4,6 +4,7 @@ class Cpage extends CI_Controller{
     function __construct(){
         parent::__construct();
         $this->load->model('mpost');
+        $this->load->library('pagination');
     }
     function index(){
 
@@ -26,7 +27,12 @@ class Cpage extends CI_Controller{
 
 
 
+
+
     }
+
+
+
 
     //read data-------------------------------------------
 

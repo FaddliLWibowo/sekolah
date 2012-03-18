@@ -22,28 +22,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="vmateriajar.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vmateriajar.php">
+      <file leaf-file-name="cpage.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/cpage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="81" selection-start="309" selection-end="309" vertical-scroll-proportion="-7.5">
+            <state line="33" column="0" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vmateriajar_full.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vmateriajar_full.php">
+      <file leaf-file-name="vcontentcenter.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vcontentcenter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="51" selection-start="207" selection-end="207" vertical-scroll-proportion="0.13636364">
+            <state line="18" column="10" selection-start="613" selection-end="613" vertical-scroll-proportion="0.513308">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cread_materi.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/readmore/cread_materi.php">
+      <file leaf-file-name="mpost.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/mpost.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="52" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
+            <state line="358" column="0" selection-start="8049" selection-end="8448" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,15 +64,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/frontend/page/vguru.php" />
-        <option value="$PROJECT_DIR$/application/views/frontend/page/vsiswa.php" />
-        <option value="$PROJECT_DIR$/application/views/frontend/page/valumni.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/page/vfitur.php" />
         <option value="$PROJECT_DIR$/css/contentcenter.css" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/controllers/readmore/cread.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/readmore/vread.php" />
-        <option value="$PROJECT_DIR$/application/controllers/cpage.php" />
         <option value="$PROJECT_DIR$/application/controllers/readmore/cread_info.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/menu/vinfosekolah.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/menu/vinfosekolah_full.php" />
@@ -80,6 +76,10 @@
         <option value="$PROJECT_DIR$/application/controllers/readmore/cread_materi.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/menu/vmateriajar.php" />
         <option value="$PROJECT_DIR$/application/views/frontend/menu/vmateriajar_full.php" />
+        <option value="$PROJECT_DIR$/application/config/autoload.php" />
+        <option value="$PROJECT_DIR$/application/controllers/cpage.php" />
+        <option value="$PROJECT_DIR$/application/models/mpost.php" />
+        <option value="$PROJECT_DIR$/application/views/frontend/element/vcontentcenter.php" />
       </list>
     </option>
   </component>
@@ -736,30 +736,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/page/vfitur.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="37" selection-start="193" selection-end="193" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/contentcenter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="25" selection-end="25" vertical-scroll-proportion="0.08181818">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="39" selection-start="518" selection-end="518" vertical-scroll-proportion="0.19090909">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vcontentcenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="21" selection-start="566" selection-end="566" vertical-scroll-proportion="0.42775667">
           <folding />
         </state>
       </provider>
@@ -781,13 +760,6 @@
     <entry file="file://$PROJECT_DIR$/application/controllers/readmore/cread.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="71" selection-start="480" selection-end="480" vertical-scroll-proportion="0.4090909">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/cpage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="723" selection-end="723" vertical-scroll-proportion="0.4909091">
           <folding />
         </state>
       </provider>
@@ -827,16 +799,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vmateriajar.php">
+    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="81" selection-start="309" selection-end="309" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/readmore/cread_materi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="52" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
+        <state line="54" column="81" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.6545454">
           <folding />
         </state>
       </provider>
@@ -844,6 +809,41 @@
     <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vmateriajar_full.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="51" selection-start="207" selection-end="207" vertical-scroll-proportion="0.13636364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/readmore/cread_materi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="52" selection-start="667" selection-end="667" vertical-scroll-proportion="0.6545454">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vmateriajar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="81" selection-start="309" selection-end="309" vertical-scroll-proportion="0.3508772">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/cpage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/mpost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="358" column="0" selection-start="8049" selection-end="8448" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vcontentcenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="10" selection-start="613" selection-end="613" vertical-scroll-proportion="0.513308">
           <folding />
         </state>
       </provider>

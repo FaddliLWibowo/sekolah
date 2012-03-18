@@ -340,6 +340,24 @@ class Mpost extends CI_Model{
 
     //get field tabel
 
+//    function get_data_home($perPage,$uri){
+//        $this->db->select('*');
+//        $this->db->from('home');
+//        $this->db->order_by('id','DESC');
+//        $getData = $this->db->get('', $perPage, $uri);
+//        if($getData->num_rows() > 0)
+//        {
+//            return $getData->result_array();
+//        }
+//
+//        else
+//        {
+//            return null;
+//        }
+//
+//    }
+
+//----------------------------------------------------
     function get_data($id){
         $this->db->where('id',$id);
         $query = $this->db->get($this->table_name);
