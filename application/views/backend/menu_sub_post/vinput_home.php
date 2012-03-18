@@ -46,9 +46,12 @@
 
                                         <td><?php echo $row->note_posting; ?></td>
                                         <td>
-                                            <i class="icon-minus-sign"></i>
+                                            <i class="icon-minus-sign minus" style="cursor: pointer" ></i>
 
-                                            <i class="icon-edit"></i>
+
+                                        </td>
+                                        <td>
+                                            <i class="icon-edit edit" style="cursor: pointer" ></i>
                                         </td>
                                     </tr>
 

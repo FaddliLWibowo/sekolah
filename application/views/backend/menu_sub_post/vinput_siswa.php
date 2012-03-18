@@ -49,8 +49,12 @@
                                                 <td><?php echo $row->nis; ?></td>
                                                 <td><?php echo $row->nama; ?></td>
                                                 <td><?php echo $row->kelas; ?></td>
-                                                <td><a href=""><i class="icon-minus-sign"></i>
-                                                    <a href=""><i class="icon-edit"></i></a></td>
+                                                <td>
+                                                    <i class="icon-minus-sign minus"></i>
+                                                </td>
+                                                <td>
+                                                    <i class="icon-edit edit"></i>
+                                                </td>
 
                                             </tr>
                                                 <?php

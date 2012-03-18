@@ -1,12 +1,21 @@
-var url = 'http://localhost/sekolah/';
-$.getScript(url+'js/bootstrap-dropdown.js');
-$.getScript(url+'js/bootstrap-tab.js');
-$.getScript(url+'js/bootstrap-modal.js');
-$.getScript(url+'js/bootstrap-alert.js');
+//var url = 'http://localhost/sekolah/';
+//$.getScript(url+'js/bootstrap-dropdown.js');
+//$.getScript(url+'js/bootstrap-tab.js');
+//$.getScript(url+'js/bootstrap-modal.js');
+//$.getScript(url+'js/bootstrap-alert.js');
 
 //$.getScript(url+'js/jquery.ui.core.js');
 //$.getScript(url+'js/jquery.ui.datepicker.js');
 //$.getScript(url+'js/jquery.ui.widget.js');
+
+$(function(){
+    $('.minus').click(function(){
+        $('#myModal').modal('show');
+    });
+    $('.edit').click(function(){
+        $('#myModaledit').modal('show');
+    });
+});
 
 $.getScript(url+'js/header.js');
 $.getScript(url+'js/content.js');

@@ -29,3 +29,12 @@ a
     color: black;
     outline: none;
 }
+
+.minus
+{
+    cursor: pointer;
+}
+.edit
+{
+    cursor: pointer;
+}
