@@ -3,18 +3,18 @@
 
     <div class="center">
         <div class="content_center"></div>
-        <h6 style="margin-bottom: 20px">INFO SEKOLAH</h6>
+        <h6 style="margin-bottom: 20px">MATERI AJAR</h6>
         <?php $no = 1;
-        foreach($infosekolah_row as $row)
+        foreach($materiajar_row as $row)
         {?>
             <h4>
-                <?php echo $row->title_info; ?>
+                <?php echo $row->title_materiajar;?>
             </h4>
             <p style="text-indent: 20px">
-                <?php echo $row->note_info; ?>
+                <?php echo $row->note_materiajar;?>
             </p>
             <br/>
-                <hr/>
+            <hr/>
             <?php
             $no++;
         }
