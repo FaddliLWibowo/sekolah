@@ -1,5 +1,6 @@
 <div class="center">
     <div class="content_center"></div>
+        <h6>ARTIKEL TERBARU</h6>
         <?php $no = 1;
             foreach($posting_row as $row)
             {?>

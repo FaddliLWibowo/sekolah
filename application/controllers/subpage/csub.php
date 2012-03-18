@@ -107,6 +107,14 @@ class Csub extends CI_Controller{
         {
             $data['title']= "Tamu SMA NEGERI ABUNG TINGGI";
         }
+        elseif($menu=="org")
+        {
+            $data['title']= "Struktur SMA NEGERI ABUNG TINGGI";
+        }
+        elseif($menu=="err")
+        {
+            $data['title']= "not found";
+        }
 
         elseif($menu=="reg"){
             $data['title']= "Registrasi";
@@ -119,6 +127,9 @@ class Csub extends CI_Controller{
         {
 
         }
+        else if($menu=="err"){
+            $this->load->view('frontend/error/verror');
+        }
         else if($menu=="mot"){
             $this->load->view('frontend/subpage/sub1/vmotto');
         }
@@ -130,6 +141,9 @@ class Csub extends CI_Controller{
         }
         else if($menu=="sar"){
             $this->load->view('frontend/subpage/sub1/vsarana');
+        }
+        else if($menu=="org"){
+            $this->load->view('frontend/subpage/sub1/vstruktur');
         }
         else if($menu=="pres"){
             $this->load->view('frontend/subpage/sub1/vprestasi',$data);

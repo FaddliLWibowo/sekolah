@@ -14,15 +14,14 @@
             <li>Menerapkan managemen partisipatif dengan melibatkan seluruh warga sekolah.</li>
 
         </ol>
-
         <h2>Misi</h2>
-         <ul>
+        <ul>
         <li>Menumbuhkembangkan penghayatan terhadap ajaran agama, budaya, dan budi pekerti yang menjadi sumber kearifan dalam bertindak.</li>
         <li>Mengembangkan kegiatan ekstrakurikuler dalam bidang kesenian, olah raga, keterampilan, organisasi, dan ilmiah</li>
         <li>Melaksanakan pembelajaran, bimbingan, dan pelatihan secara efektif, efisien dan berkesinambungan sehingga siswa dapat memperoleh hasil belajar yang optimal sesuai dengan potensi yang dimilikinya.</li>
         <li>Menumbuhkembangkan etos berbakti kepada seluruh warga sekolah.</li>
         <li>Memberikan bekal pengetahuan dan keterampilan kepada seluruh siswa untuk dapat digunakan dalam kehidupan bermasyarakat.</li>
-    </ul>
+        </ul>
 
 
 

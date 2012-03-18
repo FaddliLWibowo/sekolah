@@ -35,12 +35,12 @@
                         </ul>
 
                     </li>
-                    <li class="">
-                        <a href="#lC" data-toggle="tab"><i class="icon-cog"></i>&nbsp;Setting</a>
-                    </li>
-                    <li class="">
-                        <a href="#lD" data-toggle="tab"><i class="icon-user"></i>&nbsp;Users</a>
-                    </li>
+<!--                    <li class="">-->
+<!--                        <a href="#lC" data-toggle="tab"><i class="icon-cog"></i>&nbsp;Setting</a>-->
+<!--                    </li>-->
+<!--                    <li class="">-->
+<!--                        <a href="#lD" data-toggle="tab"><i class="icon-user"></i>&nbsp;Users</a>-->
+<!--                    </li>-->
                 </ul>
 
             </div>

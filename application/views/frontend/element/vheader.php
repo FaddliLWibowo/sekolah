@@ -2,7 +2,9 @@
 <html>
     <head>
         <title><?php echo $title; ?></title>
-        <link rel="shortcut icon" href="<?php echo base_url(); ?>img/logo.ico" >
+        <link rel="shortcut icon" href="<?php echo base_url(); ?>img/logo.ico" />
+<!--        <link rel="stylesheet" type="text/css" href="--><?php //echo base_url(); ?><!--css/bootstrap.css"/>-->
+<!--        <link rel="stylesheet" type="text/css" href="--><?php //echo base_url(); ?><!--css/bootstrap-responsive.css"/>-->
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/style.css"/>
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/jquery.ui.all.css"/>
         <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.tools.min.js"></script>
@@ -30,28 +32,7 @@
 
                 </ul>
 
-<!--                <ul class="nav pills">-->
-<!--                    <li class="active"><a href="#">Regular link</a></li>-->
-<!--                    <li class="dropdown" id="menu1">-->
-<!--                        <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">-->
-<!--                            Dropdown-->
-<!--                            <b class="caret"></b>-->
-<!--                        </a>-->
-<!--                        <ul class="dropdown-menu">-->
-<!--                            <li><a href="#">Action</a></li>-->
-<!--                            <li><a href="#">Another action</a></li>-->
-<!--                            <li><a href="#">Something else here</a></li>-->
-<!--                            <li class="divider"></li>-->
-<!--                            <li><a href="#">Separated link</a></li>-->
-<!--                        </ul>-->
-<!--                    </li>-->
-<!--                    ...-->
-<!--                </ul>-->
-<!--                <script type="text/javascript">-->
-<!--                    $(function(){-->
-<!--                        $('.dropdown-toggle').dropdown();-->
-<!--                    });-->
-<!--                </script>-->
+
 
                 <ul id="menu_list_hide">
 
@@ -66,6 +47,9 @@
 
                             <tr>
                                 <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=sar">Sarana & Prasarana</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=org">Struktur Organisasi</a></td>
                             </tr>
                             <tr>
                                 <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=pres">Prestasi</a></td>
