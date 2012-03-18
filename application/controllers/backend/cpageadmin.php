@@ -41,9 +41,12 @@ class Cpageadmin extends CI_Controller{
             'note_posting' => $this->input->post('note_posting')
 
 
+
         );
 
+
         $this->mpost->create_data_posting($dataposting);
+
         $this->index();
     }
 

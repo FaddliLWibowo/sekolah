@@ -11,6 +11,7 @@ class Mpost extends CI_Model{
     private $table_name_silabus;
     private $table_name_agenda;
     private $table_name_posting;
+    private $table_name_full;
 
     public function __construct(){
         parent::__construct();
@@ -24,6 +25,7 @@ class Mpost extends CI_Model{
         $this->table_name_silabus = 'silabus';
         $this->table_name_agenda = 'agenda';
         $this->table_name_posting = 'home';
+        $this->table_name_full = 'fullpost';
     }
 
     function create_data($data){
@@ -39,6 +41,7 @@ class Mpost extends CI_Model{
 
     function create_data_posting($dataposting){
         $this->db->insert($this->table_name_posting,$dataposting);
+        $this->db->insert($this->table_name_full,$dataposting);
         if($this->db->affected_rows() > 0){
             return true;
         }
@@ -164,6 +167,21 @@ class Mpost extends CI_Model{
             return null;
         }
     }
+
+    function read_data_posting_readmore(){
+        $sql = $this->db->get($this->table_name_full);
+        if($sql->num_rows()>0){
+            foreach($sql->result()as $row){
+                $data[]=$row;
+            }
+            return $data;
+        }
+        else
+        {
+            return null;
+        }
+    }
+
 
     function read_data_materiajar(){
         $sql = $this->db->get($this->table_name_materiajar);

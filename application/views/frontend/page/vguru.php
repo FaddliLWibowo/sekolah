@@ -3,6 +3,17 @@
 
     <div class="center">
         <div class="content_center">
+            <p style="text-indent: 20px">
+               aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            </p>
+
+            <h6 style="text-align: center;margin-bottom: 20px;margin-top: 10px">
+                DAFTAR GURU DAN PEGAWAI AKTIF
+            </h6>
 
 
 
@@ -12,15 +23,14 @@
 
 
                     <div class="span8">
-                        <table class="table table-condensed">
+                        <table class="table table-condensed" style="width: 405px">
                             <thead>
                             <tr>
                                 <th>No</th>
                                 <th>NIP</th>
                                 <th>Nama</th>
                                 <th>Pelajaran</th>
-                                <th>Jabatan</th>
-                                <th>Detail</th>
+
                             </tr>
                             </thead>
                             <tbody>
@@ -34,8 +44,7 @@
                                 <td><?php echo $row->nip; ?></td>
                                 <td><?php echo $row->nama; ?></td>
                                 <td><?php echo $row->pelajaran; ?></td>
-                                <th><?php echo $row->jabatan; ?></th>
-                                <th><a href=""><i class="icon-user"></i></a></th>
+
                             </tr>
 
                                 <?php

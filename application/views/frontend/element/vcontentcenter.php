@@ -8,8 +8,11 @@
                     <?php echo $row->title_posting; ?>
                 </h3>
                 <p style="text-indent: 20px">
-                    <?php echo $row->note_posting; ?>
+                    <?php echo $row->note_posting; ?>...
                 </p>
+                    <br/>
+                    <a href="<?php echo base_url(); ?>index.php/readmore/cread">baca selanjutnya</a>
+                <hr/>
                 <?php
                $no++;
             }

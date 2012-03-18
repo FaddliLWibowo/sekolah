@@ -14,6 +14,9 @@ class Cpage extends CI_Controller{
         $data['posting']='';
         $data['posting_row']=$this->mpost->read_data_posting();
 
+
+
+
         $data['title']= "Selamat Datang Di SMA NEGERI ABUNG TINGGI";
         $this->load->view('frontend/element/vheader',$data);
         $this->load->view('frontend/element/vcontent',$data);
