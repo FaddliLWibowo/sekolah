@@ -9,6 +9,12 @@ class Cread extends CI_Controller{
         $data['posting']='';
         $data['posting_row']=$this->mpost->read_data_posting_readmore();
 
+        $data['materiajar'] = '';
+        $data['materiajar_row'] = $this->mpost->read_data_materiajar();
+
+        $data['infosekolah']='';
+        $data['infosekolah_row']=$this->mpost->read_data_infosekolah();
+
 
         $data['title']= "Selamat Datang Di SMA NEGERI ABUNG TINGGI";
         $this->load->view('frontend/element/vheader',$data);
