@@ -63,7 +63,7 @@
                             <!-- Everything you want hidden at 940px or less, place within here -->
                             <div class="nav-collapse">
 
-                                <ul class="nav pills">
+                                <ul class="nav pills" style="margin-left: 233px">
 
                                     <li class="dropdown" id="menu">
                                         <a href="<?php echo base_url(); ?>index.php/cpage">
