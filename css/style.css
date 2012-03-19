@@ -5,10 +5,10 @@
 @import "contentright.css";
 @import "footer.css";
 
-@import "reset.css";
-
-@import "bootstrap-responsive.css";
+/*@import "reset.css";*/
 @import "bootstrap.css";
+@import "bootstrap-responsive.css";
+
 
 /*@import "jquery.ui.all.css";*/
 
