@@ -65,13 +65,10 @@
 
                                 <ul class="nav pills">
 
-                                    <li class="dropdown" id="menu1">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo base_url(); ?>index.php/cpage">
+                                    <li class="dropdown" id="menu">
+                                        <a href="<?php echo base_url(); ?>index.php/cpage">
                                             Home
-
                                         </a>
-
-
 
                                     </li>
                                     <li class="dropdown" id="menu2">
