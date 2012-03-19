@@ -325,37 +325,19 @@ class Mpost extends CI_Model{
         }
     }
 
-    function delete_data($id){
-        $this->db->where('id',$id);
-        $this->db->delete($this->table_name);
-        if($this->db->affected_rows()>0)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
-
-    //get field tabel
-
-//    function get_data_home($perPage,$uri){
-//        $this->db->select('*');
-//        $this->db->from('home');
-//        $this->db->order_by('id','DESC');
-//        $getData = $this->db->get('', $perPage, $uri);
-//        if($getData->num_rows() > 0)
+//    function delete_data($id){
+//        $this->db->where('id',$id);
+//        $this->db->delete($this->table_name);
+//        if($this->db->affected_rows()>0)
 //        {
-//            return $getData->result_array();
+//            return true;
 //        }
-//
 //        else
 //        {
-//            return null;
+//            return false;
 //        }
-//
 //    }
+
 
 //----------------------------------------------------
     function get_data($id){
@@ -453,6 +435,35 @@ class Mpost extends CI_Model{
             return null;
         }
     }
+
+    function get_data_posting($kode){
+        $this->db->where('id_posting',$kode);
+        $query = $this->db->get($this->table_name_posting);
+        if($query->num_rows > 0)
+        {
+            return $query->row();
+        }
+        else{
+            return null;
+        }
+    }
+
+
+
+//    -------------------------DELETE-------------------------------------
+
+    function delete_data($kode) //untuk menghapus record
+    {
+        $this->db->where('id_posting', $kode);
+        $this->db->delete($this->table_name_posting);
+        if($this->db->affected_rows() > 0){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
 
 
 

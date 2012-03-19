@@ -18,18 +18,36 @@
         </table>
 
         <div class="span8">
-            <ol>
+
+
+            <table class="table table-condensed" style="width: 583px">
+                <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Silabus</th>
+
+                </tr>
+                </thead>
+                <tbody>
                 <?php $no = 1;
                 foreach($silabus_row as $row)
                 {?>
 
-                <li style="width: 596px;word-wrap: break-word;height: auto;"><?php echo $no; ?></li>
-                    <li style="width: 596px;word-wrap: break-word;height: auto;"><?php echo $row->note_silabus; ?></li>
+
+                <tr>
+                    <td style="width: 15px"><?php echo $no; ?></td>
+                    <td><?php echo $row->note_silabus; ?></td>
+
+                </tr>
+
                     <?php
                     $no++;
                 }
                 ?>
-            </ol>
+
+                </tbody>
+            </table>
+
         </div>
 
     </div>

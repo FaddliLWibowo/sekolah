@@ -43,7 +43,7 @@
 
 
         <div class="span8">
-            <table class="table table-condensed">
+            <table class="table table-condensed" style="width: 583px">
                 <thead>
                 <tr>
                     <th>No</th>

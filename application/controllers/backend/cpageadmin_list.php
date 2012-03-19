@@ -94,5 +94,14 @@ class Cpageadmin_list extends CI_Controller{
 
         $this->load->view('backend/element/vfooter');
     }
+
+    function delete(){
+        $kode = $this->security->xss_clean($this->uri->segment(3));
+        $result = $this->mpost->get_data_posting($kode);
+        if ($result == null) redirect($this->index());
+        else $this->mpost->delete_data($kode);
+        redirect($this->index());
+    }
+
 }
 ?>
