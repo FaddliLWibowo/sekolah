@@ -1,6 +1,6 @@
 <div class="center">
     <div class="content_center"></div>
-        <?php $this->load->view('frontend/modal/vmodal'); ?>
+        <?php $this->load->view('frontend/slide/vslide'); ?>
         <h6 style="margin-top: 300px">ARTIKEL TERBARU</h6>
         <?php $no = 1;
             foreach($posting_row as $row)

@@ -629,7 +629,7 @@
   })
 
 }( window.jQuery );/* =========================================================
- * bootstrap-modal.js v2.0.2
+ * bootstrap-slide.js v2.0.2
  * http://twitter.github.com/bootstrap/javascript.html#modals
  * =========================================================
  * Copyright 2012 Twitter, Inc.
@@ -658,7 +658,7 @@
   var Modal = function ( content, options ) {
     this.options = options
     this.$element = $(content)
-      .delegate('[data-dismiss="modal"]', 'click.dismiss.modal', $.proxy(this.hide, this))
+      .delegate('[data-dismiss="slide"]', 'click.dismiss.slide', $.proxy(this.hide, this))
   }
 
   Modal.prototype = {
@@ -674,7 +674,7 @@
 
         if (this.isShown) return
 
-        $('body').addClass('modal-open')
+        $('body').addClass('slide-open')
 
         this.isShown = true
         this.$element.trigger('show')
@@ -709,7 +709,7 @@
         var that = this
         this.isShown = false
 
-        $('body').removeClass('modal-open')
+        $('body').removeClass('slide-open')
 
         escape.call(this)
 
@@ -756,7 +756,7 @@
     if (this.isShown && this.options.backdrop) {
       var doAnimate = $.support.transition && animate
 
-      this.$backdrop = $('<div class="modal-backdrop ' + animate + '" />')
+      this.$backdrop = $('<div class="slide-backdrop ' + animate + '" />')
         .appendTo(document.body)
 
       if (this.options.backdrop != 'static') {
@@ -791,11 +791,11 @@
   function escape() {
     var that = this
     if (this.isShown && this.options.keyboard) {
-      $(document).on('keyup.dismiss.modal', function ( e ) {
+      $(document).on('keyup.dismiss.slide', function ( e ) {
         e.which == 27 && that.hide()
       })
     } else if (!this.isShown) {
-      $(document).off('keyup.dismiss.modal')
+      $(document).off('keyup.dismiss.slide')
     }
   }
 
@@ -827,10 +827,10 @@
   * ============== */
 
   $(function () {
-    $('body').on('click.modal.data-api', '[data-toggle="modal"]', function ( e ) {
+    $('body').on('click.slide.data-api', '[data-toggle="slide"]', function ( e ) {
       var $this = $(this), href
         , $target = $($this.attr('data-target') || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '')) //strip for ie7
-        , option = $target.data('modal') ? 'toggle' : $.extend({}, $target.data(), $this.data())
+        , option = $target.data('slide') ? 'toggle' : $.extend({}, $target.data(), $this.data())
 
       e.preventDefault()
       $target.modal(option)

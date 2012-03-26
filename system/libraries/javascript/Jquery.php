@@ -797,9 +797,9 @@ class CI_Jquery extends CI_Javascript {
 	// --------------------------------------------------------------------
 
 	/**
-	 * modal window
+	 * slide window
 	 *
-	 * Load a thickbox modal window
+	 * Load a thickbox slide window
 	 *
 	 * @access	public
 	 * @return	void
