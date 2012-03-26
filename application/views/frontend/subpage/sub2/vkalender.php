@@ -1,6 +1,6 @@
 <div class="content">
     <?php $this->load->view('frontend/element/vcontentleft'); ?>
-    <div class="center_all" style="width: 70%;min-height: 384px">
+    <div class="center_all" style="width: 70%;min-height: 600px">
         <h2>kalender</h2>
 
         <table style="margin-left: 86px">

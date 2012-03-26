@@ -1,6 +1,6 @@
 <div class="content">
     <?php $this->load->view('frontend/element/vcontentleft'); ?>
-    <div class="center_all" style="width: 70%;min-height: 384px">
+    <div class="center_all" style="width: 70%;min-height: 600px">
         <h2>Direktori Alumni</h2>
         <p>Data Alumni ini yang telah menjadi member dan bergabung di sistem komunitas sekolah</p>
         <form>

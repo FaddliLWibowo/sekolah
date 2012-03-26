@@ -1,6 +1,6 @@
 <div class="content">
     <?php $this->load->view('frontend/element/vcontentleft'); ?>
-    <div class="center_all" style="width: 70%;min-height: 384px;word-wrap: break-word">
+    <div class="center_all" style="width: 70%;min-height: 600px;word-wrap: break-word">
         <h2>Agenda</h2>
 
         <form>
