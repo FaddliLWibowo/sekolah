@@ -31,7 +31,7 @@
             <div class="control-group">
                 <label class="control-label" for="textarea">Textarea</label>
                 <div class="controls">
-                    <textarea class="input-xlarge" id="textarea" rows="3"/>
+                    <textarea class="input-xlarge" id="textarea" rows="3"></textarea>
                 </div>
             </div>
 
