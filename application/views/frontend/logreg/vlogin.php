@@ -2,7 +2,7 @@
     <div class="panel_menu_header_left" align="center">
 
 
-    <?php echo form_open(base_url().'index.php/clogin/proses_login'); ?>
+    <?php echo form_open(base_url().'index.php/cpage/login'); ?>
         <table>
             <tr>
                 <td>
@@ -52,6 +52,7 @@
                         echo form_submit($data);
                     ?>
                 </td>
+                <?php echo form_close(); ?>
                 <td align="center">
                     &nbsp;&nbsp;
                     <a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=reg"><button style="cursor: pointer;margin-right: -10px" class="btn">Register</button></a>
@@ -59,6 +60,6 @@
                 </td>
             </tr>
         </table>
-    <?php echo form_close(); ?>
+
     </div>
 </div>

@@ -26,7 +26,7 @@ $config['base_url']	= 'http://localhost/sekolah/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'cpanellogin.php';
+$config['index_page'] = 'index.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -224,7 +224,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = 'w3fhe93hdbdu39';
+$config['encryption_key'] = 'w3csdc39';
 
 /*
 |--------------------------------------------------------------------------

@@ -3,7 +3,7 @@
     <div class="center_all" style="width: 70%;min-height: 600px">
         <h2>Sarana Prasarana :</h2>
 
-        <p>Fasilitas yang tersedia di SMA Negeri 1 Yogyakarta terutama disediakan untuk berbagai kegiatan siswa,baik untuk pembelajaran maupun pengembangan kesiswaan, serta untuk pendukung penyelenggaraan pendidikan. Adapun fasilitas tersebut adalah sebagai berikut.</p>
+        <p>Fasilitas yang tersedia di SMA Negeri 1 Abung Tinggi terutama disediakan untuk berbagai kegiatan siswa,baik untuk pembelajaran maupun pengembangan kesiswaan, serta untuk pendukung penyelenggaraan pendidikan. Adapun fasilitas tersebut adalah sebagai berikut.</p>
         <ol>
             <li>Ruang Belajar 23 kelas</li>
             <li>Lab mutlimedia.</li>

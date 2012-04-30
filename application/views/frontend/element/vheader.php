@@ -58,7 +58,7 @@
                             </a>
 
                             <!-- Be sure to leave the brand out there if you want it shown -->
-                            <a class="brand" href="<?php echo base_url(); ?>index.php/cpage">SMA NEGERI ABUNG TINGGI</a>
+                            <a class="brand" href="<?php echo base_url(); ?>index.php/cpage">SMA NEGERI ABUNG TINGGI<i class="icon-leaf icon-white"></i></a>
 
                             <!-- Everything you want hidden at 940px or less, place within here -->
                             <div class="nav-collapse">
@@ -147,13 +147,15 @@
                                             <li><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=age">Agenda</a></li>
                                             <li class="divider"></li>
                                             <li><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=art">Artikel</a></li>
-                                            <li class="divider"></li>
-                                            <li><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=opi">Opini</a></li>
+
                                             <li class="divider"></li>
                                             <li><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=tam">Buku Tamu</a></li>
 
                                         </ul>
 
+                                    </li>
+                                    <li>
+                                         <?php echo $this->session->userdata('username'); ?>
                                     </li>
 
                                 </ul>

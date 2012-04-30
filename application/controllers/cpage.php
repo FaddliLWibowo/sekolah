@@ -1,37 +1,36 @@
 <?php
-class Cpage extends CI_Controller{
+class Cpage extends CI_Controller
+{
 
-    function __construct(){
+    function __construct()
+    {
         parent::__construct();
         $this->load->model('mpost');
         $this->load->library('pagination');
+        $this->load->model('mlogin');
+        $this->load->model('mguest_book');
     }
-    function index(){
+
+    function index()
+    {
 
 
         $data['materiajar'] = '';
         $data['materiajar_row'] = $this->mpost->read_data_materiajar();
 
-        $data['infosekolah']='';
-        $data['infosekolah_row']=$this->mpost->read_data_infosekolah();
+        $data['infosekolah'] = '';
+        $data['infosekolah_row'] = $this->mpost->read_data_infosekolah();
 
-        $data['posting']='';
-        $data['posting_row']=$this->mpost->read_data_posting();
+        $data['posting'] = '';
+        $data['posting_row'] = $this->mpost->read_data_posting();
 
-        $data['title']= "Selamat Datang Di SMA NEGERI ABUNG TINGGI";
-        $this->load->view('frontend/element/vheader',$data);
-        $this->load->view('frontend/element/vcontent',$data);
+        $data['title'] = "Selamat Datang Di SMA NEGERI ABUNG TINGGI";
+        $this->load->view('frontend/element/vheader', $data);
+        $this->load->view('frontend/element/vcontent', $data);
         $this->load->view('frontend/element/vfooter');
 
 
-
-
-
-
-
     }
-
-
 
 
     //read data-------------------------------------------
@@ -55,5 +54,40 @@ class Cpage extends CI_Controller{
         $data['infosekolah_row'] = $this->mpost->read_data_infosekolah();
 
     }
+
+    function login() {
+        $username = $this->input->post('username', TRUE);
+        $password = md5($this->input->post('password', TRUE));
+        $this->db->where('username', $username);
+        $this->db->where('password', $password);
+        $query = $this->db->get('member');
+        if ($query->num_rows() == 1) {
+            foreach ($query->result() as $row) {
+                $nama = $row->nama;
+                $id = $row->id;
+            }
+        }
+
+        $user = $this->mlogin->validasi_user_front($username, $password);
+        if ($user == TRUE) {
+            $data = array(
+                'nama' => $nama,
+                'username' => $username,
+                'id' => $id,
+                'logged_in' => TRUE
+            );
+            $this->session->set_userdata($data);
+            redirect(base_url());
+        } else {
+            $this->session->set_flashdata('username', $username);
+            $this->session->set_flashdata('loggin_message', 'Username or Password is not valid');
+            redirect(site_url());
+        }
+    }
+
+
+
+
 }
+
 ?>

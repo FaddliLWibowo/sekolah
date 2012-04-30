@@ -4,14 +4,16 @@
         <h2>Artikel</h2>
 
 
-        <ol style="list-style: circle">
+        <ol>
             <?php $n = 1;
             foreach($artikel_row as $row)
             {?>
 
             <li>
-                <?php echo $row->title_artikel; ?>
-                <br/>
+                <p style="font-weight: bold;">
+                    <?php echo $row->title_artikel; ?>
+                </p>
+
                 <?php echo $row->note_artikel; ?>
             </li>
 

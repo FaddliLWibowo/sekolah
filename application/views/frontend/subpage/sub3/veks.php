@@ -6,7 +6,7 @@
             Kegiatan ekstrakurikuler merupakan salah satu alat pengenalan siswa pada hubungan sosial. Di dalamnya terdapat pendidikan pengenalan diri dan pengembangan kemampuan selain pemahaman materi pelajaran.
         </p>
         <p>
-            Berangkat dari pemikiran tersebut, di SMA Negeri 1 Semarang diselenggarakan berbagai kegiatan ekstrakurikuler.
+            Berangkat dari pemikiran tersebut, di SMA Negeri 1 Abung Tinggi diselenggarakan berbagai kegiatan ekstrakurikuler.
         </p>
         <p>
             Selain OSIS sebagai induk kegiatan ektrakurikuler di sekolah, kegiatan ektrakurikuler lainnya adalah:

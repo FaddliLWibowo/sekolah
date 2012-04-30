@@ -22,6 +22,6 @@
             </div>
         </div>
     </div>
-    <a class="left carousel-control" data-slide="prev" href="#myCarousel">&lsaquo;</a>
-    <a class="right carousel-control" data-slide="next" href="#myCarousel">&rsaquo;</a>
+ <a class="left carousel-control" data-slide="prev" href="#myCarousel">&lsaquo;</a>
+ <a class="right carousel-control" data-slide="next" href="#myCarousel">&rsaquo;</a>
 </div>
