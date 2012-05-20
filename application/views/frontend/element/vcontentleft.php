@@ -9,5 +9,10 @@
 
     <div id="datepicker" style="position: relative;background-color: #DEE8E7"></div>
 
-    <div>as</div>
+    <div align="center">
+        <a href="#">
+            <img src="<?php echo base_url('img/download.png'); ?>" alt="">
+        </a>
+
+    </div>
 </div>

@@ -6,7 +6,7 @@ class Cread extends CI_Controller{
     }
 
     function index(){
-        $data['posting']='';
+
         $data['posting_row']=$this->mpost->read_data_posting_readmore();
 
         $data['materiajar'] = '';
@@ -22,5 +22,20 @@ class Cread extends CI_Controller{
         $this->load->view('frontend/element/vfooter');
 
     }
+
+    function selanjutnya(){
+        $id=$this->uri->segment(4);
+        $data=array(
+            'posting'=>$this->mpost->get_post_id($id)
+        );
+
+        $data['title']= "Selamat Datang Di SMA NEGERI ABUNG TINGGI";
+        $this->load->view('frontend/element/vheader',$data);
+        $this->load->view('frontend/readmore/vread',$data);
+        $this->load->view('frontend/element/vfooter');
+
+    }
+
+
 }
 ?>

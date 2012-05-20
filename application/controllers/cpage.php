@@ -15,13 +15,13 @@ class Cpage extends CI_Controller
     {
 
 
-        $data['materiajar'] = '';
+
         $data['materiajar_row'] = $this->mpost->read_data_materiajar();
 
-        $data['infosekolah'] = '';
+
         $data['infosekolah_row'] = $this->mpost->read_data_infosekolah();
 
-        $data['posting'] = '';
+
         $data['posting_row'] = $this->mpost->read_data_posting();
 
         $data['title'] = "Selamat Datang Di SMA NEGERI ABUNG TINGGI";
