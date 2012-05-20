@@ -6,14 +6,14 @@
         <ul>
 
         <?php
-        $no = 1;
+        if(isset($materiajar_row)){
         foreach ($materiajar_row as $row) {
             ?>
 
-            <li><a href="<?php echo base_url(); ?>index.php/readmore/cread_materi"><?php echo $row->title_materiajar;?></a></li>
+            <li><a href="<?php echo site_url('readmore/cread_materi/selanjutnya/'.$row->id_materi); ?>"><?php echo $row->title_materiajar;?></a></li>
             
             <?php
-            $no++;
+        }
         }
             ?>
         </ul>

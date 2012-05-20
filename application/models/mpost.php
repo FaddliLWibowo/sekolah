@@ -444,6 +444,13 @@ class Mpost extends CI_Model
         return $query->result();
     }
 
+    function get_materi_id($id)
+    {
+        $this->db->where('id_materi',$id);
+        $query = $this->db->get('materiajar');
+        return $query->result();
+    }
+
 
 }
 

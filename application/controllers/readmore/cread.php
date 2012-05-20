@@ -25,6 +25,7 @@ class Cread extends CI_Controller{
 
     function selanjutnya(){
         $id=$this->uri->segment(4);
+
         $data=array(
             'posting'=>$this->mpost->get_post_id($id)
         );

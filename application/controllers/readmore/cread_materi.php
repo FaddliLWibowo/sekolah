@@ -8,13 +8,13 @@ class Cread_materi extends CI_Controller{
     function index(){
 
 
-        $data['materiajar'] = '';
+
         $data['materiajar_row'] = $this->mpost->read_data_materiajar();
 
-        $data['infosekolah']='';
+
         $data['infosekolah_row']=$this->mpost->read_data_infosekolah();
 
-        $data['posting']='';
+
         $data['posting_row']=$this->mpost->read_data_posting();
 
 
@@ -50,12 +50,18 @@ class Cread_materi extends CI_Controller{
         $data['infosekolah_row'] = $this->mpost->read_data_infosekolah();
 
     }
+
+    function selanjutnya(){
+        $id=$this->uri->segment(4);
+
+        $data=array(
+            'materi'=>$this->mpost->get_materi_id($id)
+        );
+
+        $data['title']= "Selamat Datang Di SMA NEGERI ABUNG TINGGI";
+        $this->load->view('frontend/element/vheader',$data);
+        $this->load->view('frontend/readmore/vread',$data);
+        $this->load->view('frontend/element/vfooter');
+    }
 }
-?><?php
-/**
- * Created by JetBrains PhpStorm.
- * User: root
- * Date: 3/18/12
- * Time: 3:19 PM
- * To change this template use File | Settings | File Templates.
- */
+?>

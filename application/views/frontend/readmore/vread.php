@@ -40,6 +40,24 @@
             }
         }?>
 
+        <?php
+        if(isset($materi)){
+            foreach($materi as $row){
+                ?>
+
+
+                <h3>
+                    <?php echo $row->title_materiajar; ?>
+                </h3>
+                <p style="text-indent: 20px">
+                    <?php echo $row->note_materiajar; ?>
+                </p>
+
+
+                <?php
+            }
+        }?>
+
         <div class="ajaxurl"></div>
     </div>
 
