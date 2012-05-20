@@ -185,15 +185,11 @@ class Mpost extends CI_Model
 
     function read_data_infosekolah()
     {
-        $sql = $this->db->get($this->table_name_infosekolah);
-        if ($sql->num_rows() > 0) {
-            foreach ($sql->result() as $row) {
-                $data[] = $row;
-            }
-            return $data;
-        }
-        else {
-            return null;
+        $query = $this->db->get('infosekolah');
+        if ($query->num_rows() > 0) {
+            return $query->result();
+        } else {
+            return array();
         }
     }
 
@@ -438,6 +434,13 @@ class Mpost extends CI_Model
     {
         $this->db->where('id_full',$id);
         $query = $this->db->get($this->table_name_full);
+        return $query->result();
+    }
+
+    function get_info_id($id)
+    {
+        $this->db->where('id_info',$id);
+        $query = $this->db->get('infosekolah');
         return $query->result();
     }
 

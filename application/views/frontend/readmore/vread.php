@@ -22,6 +22,24 @@
            }
         }?>
 
+        <?php
+        if(isset($infosekolah)){
+            foreach($infosekolah as $row){
+                ?>
+
+
+                <h3>
+                    <?php echo $row->title_info; ?>
+                </h3>
+                <p style="text-indent: 20px">
+                    <?php echo $row->note_info; ?>
+                </p>
+
+
+                <?php
+            }
+        }?>
+
         <div class="ajaxurl"></div>
     </div>
 
